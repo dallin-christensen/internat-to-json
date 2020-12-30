@@ -1,0 +1,17 @@
+{
+  "search-search-search": "Search **",
+  "search-search-searchoptions": "Search threads, customers, companies **",
+  "search-search-noresults": "No results! **",
+  "search-search-searchsuggestions": "Search Suggestions: **",
+  "search-search-checkspelling": "Check your spelling. **",
+  "search-search-trygeneralwords": "Try more general words. **",
+  "search-search-trydifferentwords": "Try different words that mean the same thing. **",
+  "search-search-ensurefilterset": "Ensure the filter is set to the type of data you want to search. **",
+  "search-search-filter": "Filter **",
+  "search-search-all": "All **",
+  "search-search-threads": "Threads **",
+  "search-search-customers": "Customers **",
+  "search-labelbar-viewall": "View All **",
+  "search-search-loadmore": "Load More **",
+  "search-search-newsearch": "Please begin a new search after editing input **"
+}

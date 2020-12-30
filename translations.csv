@@ -1,0 +1,620 @@
+Prokeep English / French Translations ,,,,,,
+Purpose: Record the French translation of Prokeep ,,,,,,
+,,,,,,
+App Section,Sub Section,English,French,Spanish,Notes,ID
+Settings,My Account,Profile,,,,settings-AccountSettings-profile
+,,Password,,,,settings-AccountSettings-password
+,,First Name,,,,settings-ProfileForm-firstName
+,,Last Name,,,,settings-ProfileForm-lastName
+,,Cell Phone,,,,settings-ProfileForm-cellPhone
+,,Email,,,,settings-ProfileForm-email
+,,Update,,,,settings-ProfileForm-update
+,,Current Password,,,,settings-PasswordForm-currentPassword
+,,New Password,,,,settings-PasswordForm-newPassword
+,,Save Password,,,,settings-PasswordForm-password
+,,Be at least 8 characters in length.,,,,signin-PasswordRequirements-passwordLength
+,,Contain at least 1 uppercase and 1 lowercase letter.,,,,signin-PasswordRequirements-upperCharLowerChar
+,,Contain at least 1 number (0-9).,,,,signin-PasswordRequirements-number
+,,My Account,,,Toast notification,settings-AccountSettings-header
+,,Success! Profile updated.,,,Toast notification,settings-ProfileFormContainer-profileUpdated
+,,Success! New password saved.,,,Toast notification,settings-PasswordFormContainer-success
+,,Error! Incorrect current password.,,,Toast notification,settings-PasswordFormContainer-error
+,,Phone number is already in use!,,,,settings-ProfileFormContainer-phoneNumberError
+,,There was an error!,,,,settings-ProfileFormContainer-error
+,,,,,,
+Settings,Preferences,Stock messages,,,,settings-Preferences-stockMessages
+,,Preferences,,,,settings-Preferences-header
+,,Notifications,,,,settings-Preferences-notifications
+,,Appearance,,,,settings-Preferences-appearance
+,,Message One,,,,settings-StockMessagesForm-messageOne
+,,Message Two,,,,settings-StockMessagesForm-messageTwo
+,,Message Three,,,,settings-StockMessagesForm-messageThree
+,,Save,,,,settings-StockMessagesForm-save
+,,Desktop Notifications,,,,settings-DesktopNotificationsForm-headerText
+,,Sounds,,,,settings-DesktopNotificationsForm-sounds
+,,Interval,,,,settings-DesktopNotificationsForm-interval
+,,None,,,,settings-DesktopNotificationsForm-none
+,,Jingle,,,,settings-DesktopNotificationsForm-jingle
+,,Blip,,,,settings-DesktopNotificationsForm-blip
+,,30 seconds,,,,settings-DesktopNotificationsForm-halfMinute
+,,1 minute,,,,settings-DesktopNotificationsForm-minute
+,,2 minutes,,,,settings-DesktopNotificationsForm-twoMinutes
+,,5 minutes,,,,settings-DesktopNotificationsForm-fiveMinutes
+,,Email Notifications,,,,settings-EmailNotificationForm-emailNotifications
+,,Send me an Email,,,"The blank is a dropdown with numerals in it, no words.",settings-EmailNotificationForm-sendEmail
+,,minutes after any of the following events occur:,,,,settings-EmailNotificationForm-minutesAfter
+,,Unread messages,,,,settings-EmailNotificationForm-unreadMessages
+,,Unclaimed threads,,,,settings-EmailNotificationForm-unclaimedThreads
+,,You ´ve received a new messages in a thread that you own.,,,,settings-EmailNotificationForm-newMessageReceived
+,,A recent thread has not been claimed.,,,,settings-EmailNotificationForm-recentThreadUnclaimed
+,,Success. Stock messages saved.,,,Toast notification,settings-useStockMessages-success
+,,Error! Stock messages could not be saved.,,,,settings-useStockMessages-error
+,,Success! Desktop Notification settings saved.,,,Toast notification,settings-useDesktopNotifications-success
+,,Success! Email Notifications settings saved.,,,Toast notification,settings-EmailNotificationsContainer-success
+,,Successfully updated theme!,,,Toast notification,settings-Appearance-success
+,,"An error occurred, could not update theme.",,,,settings-Appearance-error
+,,Error! Desktop Notifications settings could not be saved.,,,,settings-useDesktopNotifications-error
+,,Prokeep Theme,,,,settings-Appearance-prokeepTheme
+,,Mode,,,,settings-Appearance-mode
+,,Light,,,,settings-Appearance-light
+,,Classic,,,,settings-Appearance-classic
+,,Error! Email Notifications settings could not be saved.,,,,settings-EmailNotificationsContainer-error
+,,Everything is ready.,,,,settings-StockMessagesContainer-messageOne
+,,Working on it.,,,,settings-StockMessagesContainer-messageTwo
+,,Got it.,,,,settings-StockMessagesContainer-messageThree
+,,,,,,
+Settings,Users,All,,,,settings-TeamPageContainer-all
+,,Search for a team member...,,,,settings-TeamMembersFilter-searchPlaceholder
+,,Add new,,,,settings-Team-addNew
+,,Name,,,,settings-TeamTable-name
+,,Email,,,,settings-TeamTable-email
+,,resend invite,,,,settings-TeamTable-resentInvite
+,,No one with that information found.,,,,settings-TeamTable-notFound
+,,Admin,,,,settings-TeamTable-admin
+,,Manager,,,,settings-TeamTable-manager
+,,pending,,,,settings-TeamTable-pending
+,,Users,,,,settings-Team-users
+,,,,,,
+,Users > Edit User,Edit User,,,,settings-EditTeamMember-editUser
+,,Users,,,,settings-EditTeamMember-users
+,,First Name,,,,settings-TeamMemberForm-firstName
+,,Last Name,,,,settings-TeamMemberForm-lastName
+,,Email,,,,settings-TeamMemberForm-email
+,,Cellphone,,,,settings-TeamMemberForm-cellphone
+,,Role,,,,settings-TeamMemberForm-role
+,,Admin has complete administrative access and is typically limited to a few individuals.,,,,settings-TeamMemberForm-adminTool
+,,"Manger has the ability to add, edit, and delete members of their groups.",,,,settings-TeamMemberForm-managerTool
+,,Member is the default role for users with standard access.,,,,settings-TeamMemberForm-memberTool
+,,Member,,,,settings-TeamMemberForm-memberOption
+,,Manager,,,,settings-TeamMemberForm-managerOption
+,,Administrator,,,,settings-TeamMemberForm-adminOption
+,,Groups,,,,settings-TeamMemberForm-groups
+,,"Group name, department, etc",,,,settings-EditUser-groupDropDownPlaceholder
+,,Submit,,,,settings-TeamMemberForm-submit
+,,Delete,,,,settings-TeamMemberForm-delete
+,,Required.,,,,settings-TeamMemberForm-required
+,,Successfully added,,,Toast notification.,settings-AddTeamMember-added
+,,New members added succesfully.,,,,settings-TeamMemberForm-newMembersAdded
+,,The email [email] is already in use.,,,,settings-EditTeamMember-emailInUse
+,,The phone number [phoneNumber] is already in use.,,,,settings-EditTeamMember-numberInUse
+,,,,,,
+,Users> Delete,Delete this account?,,,,modals-DeleteTeamMember-deleteAccount
+,,Are you sure you want to delete the account for [name]?,,,,modals-DeleteTeamMember-areYouSure
+,,Cancel,,,,modals-DeleteTeamMember-cancel
+,,"Yes, Delete",,,,modals-DeleteTeamMember-yesDelete
+,,Successfully deleted,,,,modals-DeleteTeamMember-success
+,,,,,,
+Settings,Groups,Groups,,,,settings-Groups-groups
+,,Search by name...,,,,settings-GroupListFilter-placeholder
+,,Create Group,,,,settings-Groups-createGroup
+,,Name,,,,settings-GroupList-name
+,,Phone Number,,,,settings-GroupList-phoneNumber
+,,Members,,,,settings-GroupList-members
+,,Sharing,,,,settings-GroupList-sharing
+,,On,,,,settings-GroupList-on
+,,Off,,,,settings-GroupList-off
+,,No groups with that information found.,,,,settings-GroupList-noGroupsFound
+,,,,,,
+,Groups> Create Group,Create Group,,,,settings-AddOrEditGroup-createGroup
+,,Edit Group,,,,settings-AddOrEditGroup-editGroup
+,,Name,,,,settings-AddOrEditGroup-name
+,,Phone Number,,,,settings-AddOrEditGroup-phoneNumber
+,,Want a phone number assigned to this group?,,,,settings-AddOrEditGroup-wantPhoneNumber
+,,Contact Support,,,,settings-AddOrEditGroup-contactSupport
+,,Sharing,,,,settings-AddOrEditGroup-sharing
+,,Share Unclaimed message wait time,,,,settings-AddOrEditGroup-shareUnclaimed
+,,Minutes,,,,settings-AddOrEditGroup-minutes
+,,Share with the following groups:,,,,settings-AddOrEditGroup-shareWithGroups
+,,Save,,,,settings-AddOrEditGroup-save
+,,Success! New group created,,,,settings-AddOrEditGroup-successNewGroup
+,,Success! Group settings updated,,,,settings-AddOrEditGroup-successGroupSettings
+,,There was an error,,,,settings-AddOrEditGroup-error
+,,,,,,
+,Groups> [Group Name],Members,,,,settings-GroupMembers-members
+,,Groups,,,,settings-GroupMembers-groups
+,,Add a member,,,,settings-GroupMembers-addMember
+,,Delete this member from the group and remove them from all group records?,,,,settings-GroupMembers-deleteMember
+,,This action can not be undone,,,,settings-GroupMembers-actionSubtext
+,,Delete,,,,settings-GroupMembers-delete
+,,Group Details,,,,settings-GroupMembers-groupDetails
+,,Edit,,,,settings-GroupMembers-edit
+,,Phone,,,,settings-GroupMembers-phone
+,,Sharing,,,,settings-GroupMembers-sharing
+,,Disabled,,,,settings-GroupMembers-disabled
+,,Enabled,,,,settings-GroupMembers-enabled
+,,This group has no team members,,,,settings-GroupMembers-noMembers
+,,Add a team member,,,,settings-GroupMembers-addTeamMember
+,,Enter User Name,,,,settings-AddMember-enterName
+,,Add a member,,,,modals-AddMember-addMember
+,,save,,,,modals-AddMember-save
+,,cancel,,,,modals-AddMember-cancel
+,,Add up to 5 team members at a time,,,,modals-AddMember-addFive
+,,,,,,
+,,,,,,
+Settings,Customer Import,Customer Import,,,,settings-FirstReview-customerImport
+,,Step 1 of 4: Download customer import template,,,,settings-FirstReview-stepOne
+,,Download Template,,,,settings-FirstReview-downloadTemplate
+,,"After you download, add the following for each customer:",,,,settings-firstReview-afterDownload
+,,Company Name (Optional) - Company the contractor works for. It is OK to associate multiple contractors with the same company.,,,,settings-firstReview-companyName
+,,Company Number (Optional) - Typically the landline number of the company. It is OK to leave this blank.,,,,settings-firstReview-companyNumber
+,,Company Account Number (Optional) - An identifier used within your company to refer to this customer account.,,,,settings-firstReview-accountNumber
+,,First Name (Required) - First name of contractor.,,,,settings-firstReview-firstName
+,,Last Name (Optional) - Last name of contractor.,,,,settings-firstReview-lastName
+,,Cell Number (Required) - Cell number of contractor.,,,,settings-firstReview-cellNumber
+,,Email (Optional) - Email of contractor.,,,,settings-firstReview-email
+,,Account Rep (Optional) - Type the username (email address) of the Prokeep user who is responsible for the contractor.,,,,settings-firstReview-accountRep
+,,Prioritize Account Rep (Optional) - Please mark an X if the Account Rep should receive the contractor's incoming messages before the Shared Inbox.,,,,settings-firstReview-PrioritizeRep
+,,Please mark an X under the group that the contact is associated with.,,,,settings-firstReview-markX
+,,"After you finish adding customers, save and close the template and continue to the next step.",,,,settings-firstReview-afterFinishAdding
+,,Continue,,,,settings-CustomerImportForm-continue
+,,Saving...,,,,settings-CustomerImportForm-saving
+,,Customer Import,,,,settings-CustomerImport-customerImport
+,,Step 2 of 4: Import your customers,,,,settings-CustomerImport-step2
+,,Select the template where you added customer information.,,,,settings-CustomerImport-selectTemplate
+,,Select Template For Import,,,,settings-CustomerImport-selectTemplateImport
+,,Browse Files,,,,settings-ExcelUploader-browseFiles
+,,Back,,,,settings-Layout-back
+,,The selected file is missing the column: [] ,,,,settings-withCustomerImportLayout-missingColumn
+,,The selected file is missing the columns: [] ,,,Toast Notification,settings-withCustomerImportLayout-missingColumns
+,,You are not authorized to add contacts to the group: [],,,,settings-withCustomerImportLayout-notAuthorizedGroup
+,,You are not authorized to add contacts to the groups: [],,,,settings-withCustomerImportLayout-notAuthorizedGroups
+,,You are not authorized to alter data for the columns: [],,,,settings-withCustomerImportLayout-notAuthorizedColumns
+,,You are not authorized to alter data for the column: [],,,Toast Notification,settings-withCustomerImportLayout-notAuthorizedColumn
+,,Customer Import,,,,settings-ColumnsReview-customerImport
+,,Step 3 of 4: Check columns,,,,settings-ColumnsReview-step3
+,,"Check that the Example Values from your template match the Column Header. If they do not match, cancel the import process and return to the template and ensure column values match the column header.",,,,settings-ColumnsReview-checkExampleValues
+,,Save & continue,,,,settings-withCustomerImportLayout-saveContinue
+,,Customer Import,,,,settings-FinalReview-customerImport
+,,Step 4 of 4: Review,,,,settings-FinalReview-step4
+,,Please confirm import by pressing Continue below.,,,,settings-FinalReview-pleaseConfirm
+,,"Prokeep will then import all new customers. If there are rows with errors, you can either Cancel Import, address the rows with errors, and restart the process OR you can press Continue and import all rows that do not report an error.",,,,settings-FinalReview-prokeepImportNewCustomers
+,,Customers to Import,,,,settings-FinalReview-customersToImport
+,,Rows with Errors,,,,settings-FinalReview-rowsWithErrors
+,,None,,,,settings-FinalReview-none
+,,We imported no customers and skipped none because of errors.,,,Could include numbers instead of 'no' and 'none',settings-FinalMessage-importedCustomersAndErrors
+,,We imported 1 customer and skipped none because of errors.,,,,settings-FinalMessage-importedOneCustomer
+,,Import complete,,,,settings-FinalMessage-importComplete
+,,Importing customers,,,,settings-FinalReview-importingCustomers
+,,We are importing your customers now. This process may take a few minutes. The screen will refresh when the process is complete.,,,,settings-FinalReview-importingNow
+,,"Unable to import customers at this time, please try again later.",,,,settings-withFinalReviewLayout-unableToImport
+,,The selected file is not valid.,,,,settings-withCustomerImportLayout-notValid
+,,,,,,
+Settings,After Hours Message,After Hours Message,,,,settings-ManagersIntermediatePage-afterHoursMessage
+,,Status,,,,settings-ManagersIntermediatePage-status
+,,Group,,,,settings-ManagersIntermediatePage-group
+,,Disabled,,,,settings-ManagersIntermediatePage-disabled
+,,Active,,,,settings-ManagersIntermediatePage-active
+,,,,,,
+,After Hours Message > Group,Enable After Hours Message,,,,settings-AfterHoursDashboard-enableMessage
+,,save,,,,settings-AfterHoursDashboard-save
+,,Send this message after business hours,,,,settings-AfterHoursDashboard-sendAfterBusinessHours
+,,message preview,,,,settings-AfterHoursDashboard-messagePreview
+,,"You've reached us outside of business Hours. Our hours are 7am-6pm Mon-Sat. If your request is urgent, please call [phone number].",,,,settings-AfterHoursDashboard-placeholderMessage
+,,Group Time Zone,,,,settings-AfterHoursDashboard-groupTimeZone
+,,Central Time,,,,settings-AfterHoursDashboard-centralTime
+,,Mountain Time,,,,settings-AfterHoursDashboard-mountainTime
+,,Pacific Time,,,,settings-AfterHoursDashboard-pacificTime
+,,Atlantic Time,,,,settings-AfterHoursDashboard-atlanticTime
+,,Saskatchewan,,,,settings-AfterHoursDashboard-saskatchewan
+,,Newfoundland,,,,settings-AfterHoursDashboard-newfoundland
+,,Eastern Time,,,,settings-AfterHoursDashboard-easternTime
+,,Arizona,,,,settings-AfterHoursDashboard-arizona
+,,Alaska,,,,settings-AfterHoursDashboard-alaska
+,,Hawaii,,,,settings-AfterHoursDashboard-hawaii
+,,Open,,,,settings-AfterHoursDashboard-open
+,,Closed,,,,settings-AfterHoursDashboard-closed
+,,Group Business Hours,,,,settings-BusinessHours-groupBusinessHours
+,,Workday,,,,settings-BusinessHours-workday
+,,Copy to all days,,,,settings-BusinessHours-copyAllDays
+,,Add new temporary hours,,,,settings-
+,,Temporary Hours,,,,settings-AddEditHolidayHours-temporaryHours
+,,save,,,,settings-AddEditHolidayHours-save
+,,delete,,,,settings-AddEditHolidayHours-delete
+,,No records are currently being created,,,,settings-HolidayHours-noRecords
+,,Create a message to let customers know they have reached you outside business hours,,,,settings-AfterHoursDashboard-createMessage
+,,Monday,,,,settings-AfterHoursDashboard-monday
+,,Tuesday,,,,settings-AfterHoursDashboard-tuesday
+,,Wednesday,,,,settings-AfterHoursDashboard-wednesday
+,,Thursday,,,,settings-AfterHoursDashboard-thursday
+,,Friday,,,,settings-AfterHoursDashboard-friday
+,,Saturday,,,,settings-AfterHoursDashboard-saturday
+,,Sunday,,,,settings-AfterHoursDashboard-sunday
+,,"There is an error in your business hours, opening time must be earlier than the closing time.",,,,settings-AfterHoursDashboard-error
+,,Success! After Hours Message settings saved.,,,,settings-AfterHoursDashboard-success
+,,Title,,,,settings-HolidayHours-title
+,,Start Date,,,,settings-HolidayHours-startDate
+,,End Date,,,,settings-HolidayHours-endDate
+,,Open,,,,settings-HolidayHours-open
+,,Close,,,,settings-HolidayHours-close
+,,Message,,,,settings-HolidayHours-message
+,,,,,,
+,After Hours Message > Group > Temporary Hours,Title,,,,settings-AddEditHours-title
+,,Start Date,,,,settings-AddEditHours-startDate
+,,End Date,,,,settings-AddEditHours-endDate
+,,Message,,,,settings-AddEditHours-message
+,,You have reached us outside of temporary business hours. Our temporary hours are 9 a.m. to 6 p.m.,,,,settings-AddEditHours-placeholderMessage
+,,Availability,,,,settings-AddEditHours-availability
+,,Uncheck if unavailable for the selected date.,,,,settings-AddEditHours-unavailable
+,,Success! Temporary hours created.,,,Toast notification.,settings-AddEditHolidayHours-successCreated
+,,Success! Temporary hours edited.,,,Toast notification.,settings-AddEditHolidayHours-successEdited
+,,Delete these temporary hours?,,,,modals-DeleteTemporaryHours-deleteHours
+,,Are you sure you want to delete these temporary hours for [location]?,,,modal,modals-DeleteTemporaryHours-areYouSure
+,,"Yes, Delete",,,,modals-DeleteTemporaryHours-yesDelete
+,,Cancel,,,,modals-DeleteTemporaryHours-cancel
+,,Success! Record deleted.,,,Toast notification.,modals-AddOrEditHolidayHours-successDeleted
+,,Start date cannot be after end date,,,,settings-AddEditHolidayHours-startDate
+,,End date cannot be before start date,,,,settings-AddEditHolidayHours-endDate
+,,Open hour should be lower than close hour,,,,settings-AddEditHolidayHours-openHour
+,,Close hour should be greater than open hour,,,,settings-AddEditHolidayHours-closeHour
+,,Overlap an existing set of Temporary Hours.,,,,settings-AddOrEditHolidayHours-overlap
+,,There was an error.,,,,settings-AddOrEditHolidayHours-error
+,,,,,,
+Settings,Blocked Numbers,Blocked Numbers,,,,settings-BlockedNumbers-blockedNumbers
+,,Number,,,,settings-BlockedNumbers-number
+,,No numbers are currently being blocked,,,,settings-BlockedNumbers-noNumbersBlocked
+,,Unblock,,,,modals-UnblockNumber-unblock
+,,This number will be able to send new messages to your account again,,,modal,modals-UnblockNumber-numberCanSendMessages
+,,"Yes, unblock this number",,,modal,modals-UnblockNumber-yesUnblock
+,,Successfully unblocked [phone number].,,,Toast notification,settings-BlockedNumbers-successfullyBlocked
+,,,,,,
+Settings,Sharing,Sharing Settings,,,,settings-SharingSettings-sharingSettings
+,,Sharing,,,,settings-SharingSettings-sharing
+,,Allow messages to be shared between groups and individuals after a specified amount of time.,,,,settings-SharingSettings-allowMessages
+,,Time to share,,,,settings-SharingSettingsForm-timeToShare
+,,Define the default length of time a message can be unclaimed before being shared to additional groups.,,,,settings-SharingSettingsForm-defineDefaultLength
+,,minutes,,,,settings-SharingSettingsForm-minutes
+,,Save,,,,settings-SharingSettings-save
+,,There was an error.,,,,settings-SharingSettingsContainer-error
+,,Success! Company setting updated.,,,,settings-SharingSettingsContainer-success
+,,,,,,
+Settings,Support and Feedback,Support and Feedback,,,,settings-Support-support
+,,Contact Prokeep,,,,settings-Support-contact
+,,Phone,,,,settings-Support-phone
+,,Email,,,,settings-Support-email
+,,Help Center,,,,settings-Support-helpCenter
+,,Prokeep Knowledge Base,,,,settings-Support-knowledgeBase
+,,Feedback,,,,settings-Support-feedback
+,,Type your feedback here and press Submit when you are done. Your input helps us build a better product.,,,,settings-Support-typeFeedback
+,,Copy to clipboard,,,,settings-Support-copyClipboard
+,,Thanks for submitting your feedback.,,,,settings-Support-thanks
+,,,,,,
+Settings,Sign Out,Signing Out?,,,modal,modals-Logout-signingOut
+,,Are you sure you want to sign out?,,,modal,modals-Logout-areYouSure
+,,Sign out,,,modal,modals-Logout-signOut
+,,Cancel,,,,modals-Logout-cancel
+,,,,,,
+Settings,Menu,My Account,,,,settings-SettingsNavigation-myAccount
+,,Settings,,,,settings-SettingsNavigation-settings
+,,Preferences,,,,settings-SettingsNavigation-preferences
+,,People,,,,settings-SettingsNavigation-people
+,,Users,,,,settings-SettingsNavigation-users
+,,Customer Import,,,,settings-SettingsNavigation-customerImport
+,,Company Settings,,,,settings-SettingsNavigation-companySettings
+,,After Hours Message,,,,settings-SettingsNavigation-afterHoursMessage
+,,Blocked Numbers,,,,settings-SettingsNavigation-blockedNumbers
+,,Help,,,,settings-SettingsNavigation-help
+,,Support and Feedback,,,,settings-SettingsNavigation-support
+,,Announcements,,,,settings-SettingsNavigation-announcements
+,,Groups,,,,settings-SettingsNavigation-groups
+,,Sharing,,,,settings-SettingsNavigation-sharing
+,,Sign Out,,,,settings-SettingsNavigation-signOut
+,,,,,,
+Settings,Announcements,Create a new list,,,,modals-AddOrEditList-createNewList
+,,Create list,,,,modals-AddOrEditList-createList
+,,Save,,,,modals-AddOrEditList-save
+,,Tag name is required,,,,modals-AddOrEditList-tagNameRequired
+,,Reply Destination,,,,settings-Announcements-replyDestination
+,,Announcements,,,,settings-Announcements-announcements
+,,Announcement reply destination,,,,settings-AnnouncementGroup-replyDestination
+,,Select which group inbox you want to receive announcement replies,,,,settings-AnnouncementGroup-selectGroupInbox
+,,Announcement Lists,,,,settings-Announcements-announcementLists
+,,New List,,,,settings-Announcements-newList
+,,Get started with announcement lists,,,,settings-TagList-getStarted
+,,"You can think of announcement lists like tags. Once you create a list name here in settings, ",,,,settings-TagList-youCanThink
+,,you then go into the contacts section to add each customer to the list.,,,,settings-TagList-youThenGo
+,,Create your first list,,,,settings-TagList-createFirstList
+,,List name,,,,modals-AddOrEditList-listName
+,,"Recommended format: all lowercase, no spaces e.g. west-side-plumbers",,,,modals-AddOrEditList-recommendedFormat
+,,Announcement channel updated successfully,,,,settings-Announcements-success
+,,Edit list,,,,modals-AddOrEditList-editList
+,,Name,,,,settings-TagList-name
+,,Audience size,,,,settings-TagList-audienceSize
+,,Delete this tag and remove it from all contact records?,,,,settings-TagList-deleteTag
+,,This action cannot be undone,,,,settings-TagList-cannotBeUndone
+,,Announcement channel updated successfully.,,,,settings-TagList-success
+,,There was an error,,,,settings-TagList-error
+,,List name has already been taken,,,,settings-TagList-nameTaken
+,,List created successfully,,,,settings-TagList-createdSuccessfully
+,,List deleted successfully,,,,settings-TagList-deletedSuccessfully
+,,List updated successfully,,,,settings-TagList-updatedSuccessfully
+,,You need to create an announcements channel before setting the reply destination.,,,,settings-AnnouncementGroup-needCreateAnnouncements
+,,Contact Prokeep to setup your announcements channel.,,,,settings-AnnouncementGroup-contactProkeep
+,,,,,,
+Threads,Inbox,"Click Here to watch our 20-minute ""Get Started"" training video",,,only on new app,threads-GettingStarted-clickHere
+,,Group,,,,threads-ThreadsListColumnHeader-group
+,,Groups,,,,threads-ThreadsListColumnHeader-groups
+,,Select All,,,,threads-ThreadsListColumnHeader-selectAll
+,,Inbox,,,,threads-Threads-inbox
+,,Open,,,,threads-Threads-open
+,,Close,,,,threads-Threads-close
+,,Coffee Break!,,,,threads-Threads-coffeeBreak
+,,The inbox is empty,,,,threads-Threads-inboxEmpty
+,,Claim Thread,,,,threads-ThreadHistory-claimThread
+,,Message Failed,,,,threads-Message-messageFailed
+,,Thread has been claimed by [name],,,,threads-ThreadHistory-claimedBy
+,,Go to claimed threads,,,,threads-ThreadHistory-goToThreads
+,,Loading Previous Thread,,,,threads-ThreadHistory-loading
+,,Return to full conversation history,,,,threads-ThreadHistory-return
+,,,,,,
+Threads,Open,My Threads,,,,threads-Threads-myThreads
+,,All Claimed Threads,,,,threads-Threads-AllClaimedThreads
+,,You don't have any open threads,,,,threads-Threads-noOpenThreads
+,,Grab an unclaimed thread from the inbox,,,,threads-Threads-grabUnclaimedThread
+,,,,,,
+Threads,Open>{ID},Add reference number,,,,threads-ReferenceNumber-addReferenceNumber
+,,Press Shift + Enter to Send,,,,threads-SubmitMessageInput-placeholder
+,,Send,,,,threads-SubmitMessageInput-send
+,,Unsupported file type,,,,threads-SubmitMessageInput-unsupported
+,,"File too large, max size 5MB",,,,threads-SubmitMessageInput-fileTooLarge
+,,,,,,
+Threads,Open>{ID}>Customer Info,Message,,,,slideouts-CustomerInfo-message
+,,First Name,,,,slideouts-CustomerNameEdit-firstName
+,,Last Name,,,,slideouts-CustomerNameEdit-lastName
+,,Company,,,,slideouts-CustomerNameEdit-company
+,,click save to create {company},,,,slideouts-CustomerNameEdit-clickSave
+,,Team Members,,,,slideouts-CustomerInfo-teamMembers
+,,Enter Company Name,,,,slideouts-CompanyDropDown-enterName
+,,Create new company [company name],,,,slideouts-CompanyDropDown-createNew
+,,Add new,,,,slideouts-CustomerInfo-addNew
+,,Company Acct #,,,,slideouts-CustomerInfo-companyAcct
+,,Company email,,,,slideouts-CustomerInfo-companyEmail
+,,Company phone,,,,slideouts-CustomerInfo-companyPhone
+,,Phone,,,,slideouts-CustomerInfo-phone
+,,Email Address,,,,slideouts-CustomerInfo-email
+,,Groups,,,,slideouts-CustomerInfo-groups
+,,Priority Notifications,,,,slideouts-CustomerInfo-priority
+,,Account Rep,,,,slideouts-CustomerInfo-accountRep
+,,enabled,,,,slideouts-CustomerInfo-enabled
+,,disabled,,,,slideouts-CustomerInfo-disabled
+,,Notes,,,,slideouts-CustomerInfo-notes
+,,Nothing to see here,,,,slideouts-CustomerInfo-nothingToSee
+,,Save,,,,slideouts-EditSaveCancel-save
+,,Cancel,,,,slideouts-EditSaveCancel-cancel
+,,Invalid Phone Number,,,,slideouts-validation-invalidPhone
+,,Invalid email address.,,,,slideouts-validation-invalidEmail
+,,Must include a phone number,,,,slideouts-validation-mustIncludeNumber
+,,Must enter a value,,,,slideouts-validation-mustEnterValue
+,,Last Modified [date],,,,slideouts-CustomerInfo-lastModified
+,,Please choose account rep first.,,,,slideouts-CustomerAccountRepEdit-pleaseChoose
+,,Prioty Notification,,,,slideouts-CustomerAccountRepEdit-priority
+,,Show new messages to account rep first,,,,slideouts-CustomerAccountRepEdit-showNewMessages
+,,Announcement Lists,,,,slideouts-CustomerInfo-announcementLists
+,,Opt In status:,,,,slideouts-CustomerInfo-optInStatus
+,,Opted In,,,,slideouts-CustomerInfo-optedIn
+,,Opted Out,,,,slideouts-CustomerInfo-optedOut
+,,No associated announcements list.,,,,slideouts-CustomerInfo-noList
+,,Delete,,,,slideouts-CustomerInfoOptions-delete
+,,Block,,,,slideouts-CustomerInfoOptions-block
+,,Are you sure you want to delete [name]?,,,,slideouts-CustomerInfoOptions-areYouSureDelete
+,,This action will permanently delete the Contact and all Messages associated with the Contact.,,,,slideouts-CustomerInfoOptions-actionPermanentlyDelete
+,,Cancel,,,,slideouts-CustomerInfoOptions-cancel
+,,Delete,,,,slideouts-CustomerInfoOptions-deleteButton
+,,Block [number] from starting new threads?,,,,slideouts-CustomerInfoOptions-blockNumber
+,,,,,,
+Threads,Block Number (unknown),Block,,,,modals-BlockNumber-block
+,,Admin users can manage your blocked numbers under Blocked Numbers in Settings.,,,,modals-BlockNumber-manageBlocked
+,,Cancel,,,,modals-BlockNumber-cancel
+,,"Yes, block this number",,,,modals-BlockNumber-yesBlock
+,,Attempt to block [phone number] has failed,,,,modals-BlockNumber-couldNotBlock
+,,Attempt to delete [phone number] has failed,,,,modals-BlockNumber-couldNotDelete
+,,Success! [phone number] is now being blocked.,,,,modals-BlockNumber-success
+,,[name] has been successfully deleted from your contacts,,,,modals-BlockNumber-nameDeleted
+,,,,,,
+Threads,Upload a file,Upload a file,,,,modals-UploadModal-uploadFile
+,,Filename,,,,modals-PhotoForm-filename
+,,Comment (optional),,,,modals-PhotoForm-comment
+,,Uploading...,,,,modals-Uploader-uploading...
+,,Annotate and reply,,,,modals-PhotoModal-annotateReply
+,,Photo Attachment:,,,,modals-PhotoModal-photoAttachment
+,,Submit,,,,modals-UploadModal-submit
+,,Filename,,,,modals-DocumentForm-filename
+,,Comment (optional),,,,modals-DocumentForm-comment
+,,Press Shift + Enter to Submit,,,,modals-DocumentForm-pressShift
+,,Submit,,,,modals-DocumentForm-submit
+,,Unsupported File Type,,,,modals-UploadModal-fileTooLarge
+,,"File too large, max size 5 MB",,,,modals-UploadModal-unsupportedFile
+,,,,,,
+Threads,Closed,Thread has been closed by [name],,,,threads-ThreadHistory-closedBy
+,,Go to all threads for this contact,,,,threads-ThreadHistory-goToAllThreads
+,,Print,,,,threads-ThreadDetailsHeader-print
+,,,,,,
+Threads,New Contact,Create,,,,sidebar-CreateSidebar-create
+,,New Contact,,,,slideouts-CreateCustomerForm-newContact
+,,First Name,,,,slideouts-CreateCustomerForm-firstName
+,,Last Name,,,,slideouts-CreateCustomerForm-lastName
+,,Phone,,,,slideouts-CreateCustomerForm-phone
+,,Click here to go to that contact,,,,slideouts-CreateCustomerForm-clickHere
+,,Email,,,,slideouts-CreateCustomerForm-email
+,,Account Rep,,,,slideouts-CreateCustomerForm-accountRep
+,,Prioty Notification,,,,slideouts-CreateCustomerForm-priority
+,,Show new messages to account rep first,,,,slideouts-CreateCustomerForm-showNewMessages
+,,Company,,,,slideouts-CreateCustomerForm-company
+,,Search companies,,,,slideouts-CreateCustomerForm-searchCompanies
+,,Company Phone,,,,slideouts-CreateCustomerForm-companyPhone
+,,Company Email,,,,slideouts-CreateCustomerForm-companyEmail
+,,Account Number,,,,slideouts-CreateCustomerForm-accountNumber
+,,Group,,,,slideouts-CreateCustomerForm-group
+,,Send a welcome message,,,,slideouts-CreateCustomerForm-welcomeMessage
+,,,,,,
+Threads,New Message,New Message,,,,slideouts-CreateThread-newMessage
+,,To,,,,slideouts-CreateThread-toLabel
+,,Enter Name or Number,,,,slideouts-CreateThread-enterNameOrNumber
+,,File Name,,,,slideouts-CreateThread-messageLabel
+,,Message,,,,slideouts-CreateThread-message
+,,Press Shift + Enter to Submit,,,,slideouts-CreateThread-pressShift
+,,Unsupported File Type,,,,slideouts-CreateThread-unsupportedFile
+,,"File too large, max size 5 MB",,,,slideouts-CreateThread-fileTooLarge
+,,"Can't send message, contact has no phone number",,,,slideouts-CreateThread-cantSendMessage
+,,Send,,,,slideouts-CreateThread-send
+,,,,,,
+Threads,Transfer Thread,Transfer Thread,,,,slideouts-TransferThread-transferThread
+,,Thread Transfer Successful,,,,slideouts-TransferThread-transferThreadSuccess
+,,An error occured while transferring this thread.,,,,slideouts-TransferThread-error
+,,To,,,,slideouts-TransferThread-toLabel
+,,Internal Message,,,,slideouts-TransferThread-internalMessage
+,,The user you're attempting to transfer to is currently unavailable.,,,,slideouts-TransferThread-currentlyUnavailable
+,,Transfer Anyway,,,,slideouts-TransferThread-transferAnyway
+,,Send,,,,slideouts-TransferThread-send
+,,,,,,
+Customers,All,Contacts,,,,customers-CustomerList-contacts
+,,All,,,,customers-CustomerList-all
+,,Recent,,,,customers-CustomerList-recent
+,,Search,,,,customers-FilterCustomers-search
+,,It's awfully lonely in here.,,,,customers-NoRowsElement-lonely
+,,Are you ready to start adding contacts?,,,,customers-NoRowsElement-areYouReady
+,,,,,,
+,All>{ID},Closed at [time] by [person],,,,customers-CloseEvents-closedAt
+,,,,,,
+Search,,Search,,,,search-Search-search
+,,"Search threads, customers, companies",,,,search-Search-searchOptions
+,,No results!,,,,search-Search-noResults
+,,Search Suggestions:,,,,search-Search-searchSuggestions
+,,Check your spelling.,,,,search-Search-checkSpelling
+,,Try more general words.,,,,search-Search-tryGeneralWords
+,,Try different words that mean the same thing.,,,,search-Search-tryDifferentWords
+,,Ensure the filter is set to the type of data you want to search.,,,,search-Search-ensureFilterSet
+,,Filter,,,,search-Search-filter
+,,All,,,,search-Search-all
+,,Threads,,,,search-Search-threads
+,,Customers,,,,search-Search-customers
+,,View All,,,,search-LabelBar-viewAll
+,,Load More,,,,search-Search-loadMore
+,,Please begin a new search after editing input,,,,search-Search-newSearch
+,,,,,,
+Announcements,,No announcements sent yet,,,,announcements-AnnoucementList-noAnnouncements
+,,Search,,,,announcements-SearchAnnouncement-search
+,,Click the button below to create your first announcement,,,,announcements-AnnoucementList-clickButtonBelow
+,,Create an Announcement,,,,announcements-AnnoucementList-createAnnouncement
+,,Create a new group announcement,,,,slideouts-GroupMessageName-createGroupAnnouncement
+,,Setup,,,,slideouts-GroupMessageName-setup
+,,Message name,,,,slideouts-GroupMessageName-messageName
+,,Something to help you identify the message,,,,slideouts-GroupMessageName-placeholderMessage
+,,Save and continue,,,,slideouts-GroupMessageName-saveContinue
+,,Recipients,,,,slideouts-GroupMessageOverview-recipients
+,,Who do you want to send this message to?,,,,slideouts-GroupMessageOverview-whoSendMessage
+,,Save and exit,,,,slideouts-GroupMessageRecipients-saveExit
+,,Message,,,,slideouts-GroupMessageOverview-message
+,,What do you want to say?,,,,slideouts-GroupMessageOverview-whatToSay
+,,Audience Size,,,,slideouts-GroupMessageRecipients-audienceSize
+,,Recipients,,,,slideouts-GroupMessageRecipients-recipients
+,,Who do you want to message?,,,,slideouts-GroupMessageRecipients-whoToMessage
+,,clear all,,,,slideouts-GroupMessageRecipients-clearAll
+,,recipient name,,,,slideouts-GroupMessageRecipients-recipientName
+,,Customers,,,,slideouts-GroupMessageRecipients-customersLabel
+,,Announcement Lists,,,,slideouts-GroupMessageRecipients-announcementListsLabel
+,,[name] is already in your recipients list.,,,,slideouts-GroupMessageRecipients-alreadyRecipient
+,,edit,,,,slideouts-GroupMessageOverview-edit
+,,recipient,,,,slideouts-GroupMessageOverview-recipient
+,,I have permission to text each contact above,,,,slideouts-GroupMessageOverview-permission
+,,send now,,,,slideouts-GroupMessageOverview-sendNow
+,,Sending...,,,,announcements-AnnouncementList-sending
+,,Draft,,,,slideouts-GroupMessageOverview-draft
+,,View Detail,,,,slideouts-GroupMessageOverview-viewDetail
+,,Duplicate,,,,announcements-AnnouncementList-duplicate
+,,Previous,,,,announcements-AnnouncementList-previous
+,,Next,,,,announcements-AnnouncementList-next
+,,Announcement Name,,,,announcements-AnnouncementList-announcementName
+,,Sent,,,,announcements-AnnouncementList-sent
+,,You have reached the maximum number of characters allowed per message.,,,,slideouts-GroupMessageContent-maxNumberOfChars
+,,successfully deleted announcement,,,,announcements-AnnouncementList-success
+,,there was an error deleting the announcement,,,,announcements-AnnouncementList-error
+,,Announcement channel updated successfully,,,,announcements-Announcements-success
+,,There was an error.,,,,announcements-Announcements-error
+,,failure saving announcement.,,,,slideouts-GroupMessageContent-error
+,,failure saving announcement.,,,,slideouts-GroupMessageRecipients-error
+,,Save and continue,,,,slideouts-GroupMessageContent-saveContinue
+,,message,,,,slideouts-GroupMessageContent-message
+,,What do you want your message to say?,,,,slideouts-GroupMessageContent-whatMessageSay
+,,message sent,,,,slideouts-GroupMessageContent-messageSent
+,,,,,,
+Reports,,Download Excel,,,,reports-Reports-downloadExcel
+,,Threads Created (last 30 days),,,,reports-Reports-threadsCreated
+,,Last 30 days,,,,reports-Reports-lastThirtyDays
+,,[number] By Customer,,,,reports-Card-byCustomer
+,,[number] By Group,,,,reports-Card-byGroup
+,,[number] - [number] days,,,,reports-Card-days
+,,Time to claim (30 day average),,,,reports-Reports-timeToClaim
+,,30 day average,,,,reports-Reports-dayAverage
+,,[number] minutes,,,,reports-Reports-minutes
+,,[number] seconds,,,,reports-Reports-seconds
+,,Group,,,,reports-ReportsTable-group
+,,threads received*,,,,reports-ReportsTable-threadsReceived
+,,threads sent*,,,,reports-ReportsTable-threadsSent
+,,time to claim*,,,,reports-ReportsTable-timeToClaim
+,,* Last 30 Days,,,,reports-TableData-lastThirtyDays
+,,Your thread history report is being prepared and will be emailed to you shortly.,,,,reports-ReportsContainer-threadHistoryPrepared
+,,No activity to report yet,,,,reports-Reports-noActivity
+,,"Don't worry, everything is as it should be. Reports are generated nightly.",,,,reports-Reports-dontWorry
+,,Your first report will be available tomorrow.,,,,reports-Reports-firstReport
+,,Start a Thread,,,,reports-Reports-startThread
+,,,,,,
+Sign in,/login,email address,,,,signin-SignIn-emailAddress
+,,password,,,,signin-SignIn-password
+,,forgot password?,,,,signin-SignIn-forgotPassword
+,,The information you provided does not match our records,,,,signin-SignIn-noMatchRecords
+,,Login failed,,,,signin-SignIn-loginFailed
+,,sign in,,,,signin-SignIn-signIn
+,,,,,,
+Sign in,/forgot,password recovery,,,,signin-ForgotPassword-passwordRecovery
+,,Enter the email address that is associated with your Prokeep account.,,,,signin-ForgotPassword-enterEmail
+,,Back to sign in,,,,signin-ForgotPassword-back
+,,Help is on the way,,,,signin-ForgotPasswordConfirmation-helpOnTheWay
+,,Head over to your email inbox and follow the link we've sent in a message. We'll get you back to serving customers in no time.,,,,signin-ForgotPasswordConfirmation-headToEmail
+,,Didn't get the email? Please contact support.,,,,signin-ForgotPasswordConfirmation-contactSupport
+,,Phone,,,,signin-ForgotPasswordConfirmation-phone
+,,Email,,,,signin-ForgotPasswordConfirmation-email
+,,Need Help?,,,,signin-ForgotPasswordConfirmation-needHelp
+,,Click here.,,,,signin-ForgotPasswordConfirmation-clickHere
+,,Could not send password reset email.,,,,signin-ForgotPasswordConfirmation-cannotSendPassword
+,,User not found,,,,signin-ForgotPasswordConfirmation-userNotFound
+,,Back to sign in,,,,signin-ForgotPasswordConfirmation-back
+,,submit,,,,signin-ForgotPassword-submit
+,,email address,,,,signin-ForgotPassword-emailAddress
+,,copy to clipboard,,,,signin-ForgotPasswordConfirmation-copyToClipboard
+,,copied!,,,,signin-ForgotPasswordConfirmation-copied
+,,,,,,
+Sign In,/join/{id},Welcome aboard,,,,signin-JoinTeam-welcomeAboard
+,,Fill in the information below and we will have you sending messages in no time,,,,signin-JoinTeam-fillInfoBelow
+,,Error occured,,,,signin-JoinTeam-error
+,,Could not join team.,,,,signin-JoinTeam-couldNotJoin
+,,First Name,,,,signin-JoinTeam-firstName
+,,Last Name,,,,signin-JoinTeam-lastName
+,,password,,,,signin-JoinTeam-password
+,,save,,,,signin-JoinTeam-save
+,,This invite has already been accepted,,,,signin-JoinTeam-inviteAlreadyAccepted
+,,Sign In,,,,signin-JoinTeam-signIn
+,,,,,,
+Sign In,/reset/{id},Create your password,,,,signin-ResetPassword-createPassword
+,,Reset password,,,,signin-ResetPassword-resetPassword
+,,Error occured,,,,signin-ResetPassword-error
+,,password,,,,signin-ResetPassword-password
