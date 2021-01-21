@@ -17,7 +17,7 @@ const languages = {
   },
 }
 
-const selectedLanguage = 'en'
+const selectedLanguage = 'fr'
 
 const languageName = languages[selectedLanguage].name
 const languageRow = languages[selectedLanguage].row
@@ -47,7 +47,7 @@ const writeFiles = () => {
     console.log({ repeatedIds })
   }
 
-  console.log(`Contratulations, ${totalIdAmount} ${languageName} id's created!`)
+  console.log(`Contratulations, ${totalIdAmount} ${languageName} ids created!`)
 }
 
 
@@ -62,9 +62,9 @@ const parseCsvData = () =>{
   .pipe(parse({delimiter: ','}))
   .on('data', function(csvrow) {
     
-    const phraseId = csvrow[6].toLowerCase()
+    const phraseId = csvrow[6]
 
-    if (phraseId && csvrow[languageRow] && phraseId !== 'id') {
+    if (phraseId && csvrow[languageRow] && phraseId !== 'ID') {
 
       const section = phraseId.slice(0, phraseId.indexOf('-'))
 
@@ -78,7 +78,7 @@ const parseCsvData = () =>{
         totalIdAmount++;
       }
 
-      csvData[section][phraseId] = csvrow[languageRow] + ' **'
+      csvData[section][phraseId] = csvrow[languageRow].replace('\\', '').replace('\\', '')
     }
   })
   .on('end',function() {

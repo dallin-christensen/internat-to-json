@@ -1,620 +1,880 @@
 Prokeep English / French Translations ,,,,,,
 Purpose: Record the French translation of Prokeep ,,,,,,
 ,,,,,,
-App Section,Sub Section,English,French,Spanish,Notes,ID
-Settings,My Account,Profile,,,,settings-AccountSettings-profile
-,,Password,,,,settings-AccountSettings-password
-,,First Name,,,,settings-ProfileForm-firstName
-,,Last Name,,,,settings-ProfileForm-lastName
-,,Cell Phone,,,,settings-ProfileForm-cellPhone
-,,Email,,,,settings-ProfileForm-email
-,,Update,,,,settings-ProfileForm-update
-,,Current Password,,,,settings-PasswordForm-currentPassword
-,,New Password,,,,settings-PasswordForm-newPassword
-,,Save Password,,,,settings-PasswordForm-password
-,,Be at least 8 characters in length.,,,,signin-PasswordRequirements-passwordLength
-,,Contain at least 1 uppercase and 1 lowercase letter.,,,,signin-PasswordRequirements-upperCharLowerChar
-,,Contain at least 1 number (0-9).,,,,signin-PasswordRequirements-number
-,,My Account,,,Toast notification,settings-AccountSettings-header
-,,Success! Profile updated.,,,Toast notification,settings-ProfileFormContainer-profileUpdated
-,,Success! New password saved.,,,Toast notification,settings-PasswordFormContainer-success
-,,Error! Incorrect current password.,,,Toast notification,settings-PasswordFormContainer-error
-,,Phone number is already in use!,,,,settings-ProfileFormContainer-phoneNumberError
-,,There was an error!,,,,settings-ProfileFormContainer-error
+App Section,Sub Section,English,French,Spanish,Internal Notes,ID
+Settings,My Account,Profile,Profil,Perfil,,settings-AccountSettings-profile
+,,Password,Mot de passe,Contraseña,,settings-AccountSettings-password
+,,First Name,Prénom,Nombre,,settings-ProfileForm-firstName
+,,Last Name,Nom,Apellido,,settings-ProfileForm-lastName
+,,Cell Phone,Célullaire,Celular,,settings-ProfileForm-cellPhone
+,,Email,Courriel,Correo Electrónico,,settings-ProfileForm-email
+,,Update,Mis à jour,Actualizar,,settings-ProfileForm-update
+,,Current Password,Mot de passe actuel,Contraseña actual,,settings-PasswordForm-currentPassword
+,,New Password,Nouveau mot de passe,Nueva Contraseña,,settings-PasswordForm-newPassword
+,,Save Password,Enregistrer mot de passe,Guardar Contraseña,,settings-PasswordForm-password
+,,Be at least 8 characters in length.,Comporter au moins 8 caratères ,Tener al menos 8 caracteres de longitud,,signin-PasswordRequirements-passwordLength
+,,Contain at least 1 uppercase and 1 lowercase letter.,Contenir au moins 1 majuscule et 1 minuscule ,Debe contener al menos una letra mayúscula y una letra minuscula.,,signin-PasswordRequirements-upperCharLowerChar
+,,Contain at least 1 number (0-9).,Contenir au moins 1 chiffre (0-9),Debe contener al menos un número (0-9).,,signin-PasswordRequirements-number
+,,My Account,Mon compte,Mi cuenta,Toast notification,settings-AccountSettings-header
+,,Success! Profile updated.,Succès! Profil mis à jour,Éxito! Perfil actualizado correctamente.,Toast notification,settings-ProfileFormContainer-profileUpdated
+,,Success! New password saved.,Succès! Nouveau mot de passe sauvegardé.,Éxito! La nueva contraseña ha sido guardada.,Toast notification,settings-PasswordFormContainer-success
+,,Error! Incorrect current password.,Erreur! Mot de passe actuel incorrect,Error! La contraseña actual es incorrecta.,Toast notification,settings-PasswordFormContainer-error
+,,Phone number is already in use!,Le numéro de téléphone est déjà utilisé!,El numero de telefono ya esta en uso.,,settings-ProfileFormContainer-phoneNumberError
+,,There was an error!,Il y a une erreur,Ha habido un error!,,settings-ProfileFormContainer-error
+,,Invalid phone number format.,Format de numéro de téléphone invalide,El formato del número telefónico es invalido.,,settings-ProfileFormContainer-phoneFormatError
+,,Invalid email format.,Format de courriel invalide,El formato del correo electrónico es inválido.,,settings-ProfileFormContainer-emailFormatError
 ,,,,,,
-Settings,Preferences,Stock messages,,,,settings-Preferences-stockMessages
-,,Preferences,,,,settings-Preferences-header
-,,Notifications,,,,settings-Preferences-notifications
-,,Appearance,,,,settings-Preferences-appearance
-,,Message One,,,,settings-StockMessagesForm-messageOne
-,,Message Two,,,,settings-StockMessagesForm-messageTwo
-,,Message Three,,,,settings-StockMessagesForm-messageThree
-,,Save,,,,settings-StockMessagesForm-save
-,,Desktop Notifications,,,,settings-DesktopNotificationsForm-headerText
-,,Sounds,,,,settings-DesktopNotificationsForm-sounds
-,,Interval,,,,settings-DesktopNotificationsForm-interval
-,,None,,,,settings-DesktopNotificationsForm-none
-,,Jingle,,,,settings-DesktopNotificationsForm-jingle
-,,Blip,,,,settings-DesktopNotificationsForm-blip
-,,30 seconds,,,,settings-DesktopNotificationsForm-halfMinute
-,,1 minute,,,,settings-DesktopNotificationsForm-minute
-,,2 minutes,,,,settings-DesktopNotificationsForm-twoMinutes
-,,5 minutes,,,,settings-DesktopNotificationsForm-fiveMinutes
-,,Email Notifications,,,,settings-EmailNotificationForm-emailNotifications
-,,Send me an Email,,,"The blank is a dropdown with numerals in it, no words.",settings-EmailNotificationForm-sendEmail
-,,minutes after any of the following events occur:,,,,settings-EmailNotificationForm-minutesAfter
-,,Unread messages,,,,settings-EmailNotificationForm-unreadMessages
-,,Unclaimed threads,,,,settings-EmailNotificationForm-unclaimedThreads
-,,You ´ve received a new messages in a thread that you own.,,,,settings-EmailNotificationForm-newMessageReceived
-,,A recent thread has not been claimed.,,,,settings-EmailNotificationForm-recentThreadUnclaimed
-,,Success. Stock messages saved.,,,Toast notification,settings-useStockMessages-success
-,,Error! Stock messages could not be saved.,,,,settings-useStockMessages-error
-,,Success! Desktop Notification settings saved.,,,Toast notification,settings-useDesktopNotifications-success
-,,Success! Email Notifications settings saved.,,,Toast notification,settings-EmailNotificationsContainer-success
-,,Successfully updated theme!,,,Toast notification,settings-Appearance-success
-,,"An error occurred, could not update theme.",,,,settings-Appearance-error
-,,Error! Desktop Notifications settings could not be saved.,,,,settings-useDesktopNotifications-error
-,,Prokeep Theme,,,,settings-Appearance-prokeepTheme
-,,Mode,,,,settings-Appearance-mode
-,,Light,,,,settings-Appearance-light
-,,Classic,,,,settings-Appearance-classic
-,,Error! Email Notifications settings could not be saved.,,,,settings-EmailNotificationsContainer-error
-,,Everything is ready.,,,,settings-StockMessagesContainer-messageOne
-,,Working on it.,,,,settings-StockMessagesContainer-messageTwo
-,,Got it.,,,,settings-StockMessagesContainer-messageThree
+Settings,Preferences,Stock Messages,Messages pré-enregistrés,Mensajes de stock,,settings-Preferences-stockMessages
+,,Preferences,Préférences,Preferencias,,settings-Preferences-header
+,,Notifications,Notifications,Notificaciones,,settings-Preferences-notifications
+,,Appearance,Apparence,Apariencia,,settings-Preferences-appearance
+,,Message One,Message un ,Mensaje 1,,settings-StockMessagesForm-messageOne
+,,Message Two,Message deux,Mensaje 2,,settings-StockMessagesForm-messageTwo
+,,Message Three,Message trois ,Mensaje 3,,settings-StockMessagesForm-messageThree
+,,Save,Sauvegarder,Guardar,,settings-StockMessagesForm-save
+,,Desktop Notifications,Notifications de bureau,Notificaciones de Escritorio,,settings-DesktopNotificationsForm-headerText
+,,Sounds,Son ,Sonidos,,settings-DesktopNotificationsForm-sounds
+,,Interval,Intervalle,Intervalo,,settings-DesktopNotificationsForm-interval
+,,None,Aucun ,Ninguno,,settings-DesktopNotificationsForm-none
+,,Jingle,Jingle,Cascabel,,settings-DesktopNotificationsForm-jingle
+,,Blip,Blip,Intermitente,,settings-DesktopNotificationsForm-blip
+,,Save,Enregistrer,Guardar,,settings-DesktopNotificationsForm-save
+,,30 seconds,30 secondes,30 segundos,,settings-DesktopNotificationsForm-halfMinute
+,,1 minute,1 minute,1 minutos,,settings-DesktopNotificationsForm-minute
+,,2 minutes,2 minutes,2 minutos,,settings-DesktopNotificationsForm-twoMinutes
+,,5 minutes,5 minutes,5 minutos,,settings-DesktopNotificationsForm-fiveMinutes
+,,Email Notifications,Notification de courriel ,Notificaciones de correo electrónico,,settings-EmailNotificationForm-emailNotifications
+,,Send me an email,Envoie-moi un courriel,Enviarme un correo electrónico,"The blank is a dropdown with numerals in it, no words.",settings-EmailNotificationForm-sendEmail
+,,minutes after any of the following events occur:,minutes après que l'un de ces événements arrivent:,Minutos despues de estos eventos:,,settings-EmailNotificationForm-minutesAfter
+,,Save,Enregistrer,Guardar,,settings-EmailNotificationForm-save
+,,Unread messages,Messages non-lus,Mensajes sin leer,,settings-EmailNotificationForm-unreadMessages
+,,Unclaimed threads,Conversations non-réclamées,Hilos sin atender,,settings-EmailNotificationForm-unclaimedThreads
+,,You ´ve received a new messages in a thread that you own.,Vous avez reçu un nouveau message dans une conversation que vous possédez ,Has recibido un nuevo mensaje en uno de los hilos que te pertenecen.,,settings-EmailNotificationForm-newMessageReceived
+,,A recent thread has not been claimed.,Une récente conversation n'a pas été réclamée,Uno de los hilos más recientes no ha sido atendido.,,settings-EmailNotificationForm-recentThreadUnclaimed
+,,Success! Stock messages saved.,Succès! Messages pré-enregistrés sauvegardés,Éxito! Mensajes de stock guardados.,Toast notification,settings-useStockMessages-success
+,,Error! Stock messages could not be saved.,Erreur! Messages pré-enregistrés n'a pas pu être sauvegardés,Error! Los mensajes de stock no han podido guardarse.,,settings-useStockMessages-error
+,,Success! Desktop Notification settings saved.,Succès! Paramètre de notification de bureau enregistré,Notificacion gaurdada con excito,Toast notification,settings-useDesktopNotifications-success
+,,Success! Email Notifications settings saved.,Succès! Paramètre de notifications par courriel enregistré,Email notificaciones guardada con excito,Toast notification,settings-EmailNotificationsContainer-success
+,,Successfully updated theme!,Mis à jour du thème réussi!,El tema ha sido actualizado correctamente!,Toast notification,settings-Appearance-success
+,,Save,Enregistrer,Guardar,,settings-Appearance-save
+,,"An error occurred, could not update theme.","Une erreur s'est produite, impossible de mettre à jour le thème.","Ha ocurrido un error, el tema no pudo ser actualizado.",,settings-Appearance-error
+,,Error! Desktop Notifications settings could not be saved.,Erreur! Le paramètre de notification n'a pas pu être enregistré.,Error notificacion no fue guardada,,settings-useDesktopNotifications-error
+,,Prokeep Theme,Thèmes Prokeep,Tema Prokeep,,settings-Appearance-prokeepTheme
+,,Mode,Affichage,Modo,,settings-Appearance-mode
+,,Light,Clair,Luz,,settings-Appearance-light
+,,Classic,Classique,Clásico,,settings-Appearance-classic
+,,Error! Email Notifications settings could not be saved.,Erreur! Les notifications par courriel n'ont pas pu être enregistrées,Error!,,settings-EmailNotificationsContainer-error
+,,Successfully updated,Mis à jour réussie,Actualizado correctamente.,,settings-EditTeamMember-success
 ,,,,,,
-Settings,Users,All,,,,settings-TeamPageContainer-all
-,,Search for a team member...,,,,settings-TeamMembersFilter-searchPlaceholder
-,,Add new,,,,settings-Team-addNew
-,,Name,,,,settings-TeamTable-name
-,,Email,,,,settings-TeamTable-email
-,,resend invite,,,,settings-TeamTable-resentInvite
-,,No one with that information found.,,,,settings-TeamTable-notFound
-,,Admin,,,,settings-TeamTable-admin
-,,Manager,,,,settings-TeamTable-manager
-,,pending,,,,settings-TeamTable-pending
-,,Users,,,,settings-Team-users
+Settings,Users,All,Tout,Todo,,settings-TeamPageContainer-all
+,,Search for a team member...,Rechercher un membre de l'équipe,Buscar un miembro del equipo,,settings-TeamMembersFilter-searchPlaceholder
+,,Add new,Ajouter ,Agregar uno nuevo,,settings-Team-addNew
+,,Name,Nom,Nombre,,settings-TeamTable-name
+,,Email,Courriel,Correo Electrónico,,settings-TeamTable-email
+,,resend invite,Renvoyer l'invitation,Reenviar invitación,,settings-TeamTable-resentInvite
+,,No one with that information found.,Personne avec cette information retrouvée,Nadie con esa información ha sido encontrado.,,settings-TeamTable-notFound
+,,Admin,Administrateur,Administrador,,settings-TeamTable-admin
+,,Manager,Superviseur,Gerente,,settings-TeamTable-manager
+,,pending,en attente,Pendiente,,settings-TeamTable-pending
+,,Error. Could not resend invite.,Erreur. Impossible de renvoyer l'invitation,Error. No ha sido posible reenviar la invitación,,settings-TeamTable-error
+,,Success! Invite resent.,Succès! Invitation renvoyée,Éxito! La invitación ha sido reenviada.,,settings-TeamTable-success
+,,Users,Utilisateurs,Usuarios,,settings-Team-users
 ,,,,,,
-,Users > Edit User,Edit User,,,,settings-EditTeamMember-editUser
-,,Users,,,,settings-EditTeamMember-users
-,,First Name,,,,settings-TeamMemberForm-firstName
-,,Last Name,,,,settings-TeamMemberForm-lastName
-,,Email,,,,settings-TeamMemberForm-email
-,,Cellphone,,,,settings-TeamMemberForm-cellphone
-,,Role,,,,settings-TeamMemberForm-role
-,,Admin has complete administrative access and is typically limited to a few individuals.,,,,settings-TeamMemberForm-adminTool
-,,"Manger has the ability to add, edit, and delete members of their groups.",,,,settings-TeamMemberForm-managerTool
-,,Member is the default role for users with standard access.,,,,settings-TeamMemberForm-memberTool
-,,Member,,,,settings-TeamMemberForm-memberOption
-,,Manager,,,,settings-TeamMemberForm-managerOption
-,,Administrator,,,,settings-TeamMemberForm-adminOption
-,,Groups,,,,settings-TeamMemberForm-groups
-,,"Group name, department, etc",,,,settings-EditUser-groupDropDownPlaceholder
-,,Submit,,,,settings-TeamMemberForm-submit
-,,Delete,,,,settings-TeamMemberForm-delete
-,,Required.,,,,settings-TeamMemberForm-required
-,,Successfully added,,,Toast notification.,settings-AddTeamMember-added
-,,New members added succesfully.,,,,settings-TeamMemberForm-newMembersAdded
-,,The email [email] is already in use.,,,,settings-EditTeamMember-emailInUse
-,,The phone number [phoneNumber] is already in use.,,,,settings-EditTeamMember-numberInUse
+,Users > Edit User,Edit User,Modifier l'utilisateur,Editar Usuario,,settings-EditTeamMember-editUser
+,,Users,Utilisateurs,Usuarios,,settings-EditTeamMember-users
+,,First Name,Prénom,Nombre,,settings-TeamMemberForm-firstName
+,,Last Name,Nom,Apellido,,settings-TeamMemberForm-lastName
+,,Email,Courriel,Correo Electrónico,,settings-TeamMemberForm-email
+,,Cellphone,Téléphone portable,Celular,,settings-TeamMemberForm-cellphone
+,,Role,Rôle,Rol,,settings-TeamMemberForm-role
+,,Admin has complete administrative access and is typically limited to a few individuals.,L'administrateur dispose d'un accès d'administrateur complet et est généralement limité à quelques personnes,El Administrador posee un acceso completamente administrativo y esta típicamente limitado a unas pocas personas.,,settings-TeamMemberForm-adminTool
+,,"Manager has the ability to add, edit, and delete members of their groups.","Le gestionnaire a la capacité d'ajouter, de modifier et de supprimer des membres de leur groupe","El Gerente tiene la habilidad de agregar, editar y eliminar miembros de sus grupos.",,settings-TeamMemberForm-managerTool
+,,Member is the default role for users with standard access.,Le membre est le rôle par défaut des utilisateurs qui disposent d'un accès standard,"El rol ""Miembro"" es el rol predeterminado para los usuarios con acceso estándar.",,settings-TeamMemberForm-memberTool
+,,Admin,Administrateur,Administrador,,settings-TeamMemberForm-admin
+,,Manager,Gestionnaire,Gerente,,settings-TeamMemberForm-manager
+,,Member,Membre,Miembro,,settings-TeamMemberForm-member
+,,Administrator,Administrateur,Administrador,,settings-TeamMemberForm-adminOption
+,,Groups,Groupes,Grupos,,settings-TeamMemberForm-groups
+,,"Group name, department, etc","Nom du groupe, département, etc","Nombre de grupo, departamento, etc",,settings-GroupDropDown-groupDropDownPlaceholder
+,,Submit,Soumettre,Enviar,,settings-TeamMemberForm-submit
+,,Delete,Supprimer,Eliminar,,settings-TeamMemberForm-delete
+,,Required.,Requis,Requerido,,settings-TeamMemberForm-required
+,,Successfully added,Ajouté avec succès,Agregado correctamente,Toast notification.,settings-AddTeamMember-added
+,,Users,Utilisateurs,Usuarios,,settings-AddTeamMember-users
+,,Add User,Ajouter utilisateurs,Agregar Usuario,,settings-AddTeamMember-addUser
+,,The email {email} is already in use.,Le courriel {email} est déjà utilisé,El correo electrónico {email} está siendo utilizado.,,settings-EditTeamMember-emailInUse
+,,The phone number {phoneNumber} is already in use.,Le numéro de téléphone {phoneNumber} est déjà utilisé,El numero telefonico {phoneNumber} está siendo utilizado.,,settings-EditTeamMember-numberInUse
+,,Invalid phone number format.,Format de numéro de téléphone invalide,Formato del número telefónico válido.,,settings-TeamMemberForm-invalidPhone
+,,Invalid email format.,Format de courriel invalide,Formato del correo electrónico inválido.,,settings-TeamMemberForm-invalidEmail
 ,,,,,,
-,Users> Delete,Delete this account?,,,,modals-DeleteTeamMember-deleteAccount
-,,Are you sure you want to delete the account for [name]?,,,,modals-DeleteTeamMember-areYouSure
-,,Cancel,,,,modals-DeleteTeamMember-cancel
-,,"Yes, Delete",,,,modals-DeleteTeamMember-yesDelete
-,,Successfully deleted,,,,modals-DeleteTeamMember-success
+,Users> Delete,Delete this account?,Supprimer le compte?,Eliminar esta cuenta?,,modals-DeleteTeamMember-deleteAccount
+,,Are you sure you want to delete the account for {accountName}?,Êtes-vous sûr que vous voulez supprimer le compte pour {accountName}?,Está seguro que desea eliminar la cuenta para {accountName}?,,modals-DeleteTeamMember-areYouSure
+,,Cancel,Annuler,Cancelar,,modals-DeleteTeamMember-cancel
+,,"Yes, Delete","Oui, Supprimer","Si, Eliminar",,modals-DeleteTeamMember-yesDelete
+,,Successfully deleted,Supprimé avec succès,Eliminado correctamente,,modals-DeleteTeamMember-success
 ,,,,,,
-Settings,Groups,Groups,,,,settings-Groups-groups
-,,Search by name...,,,,settings-GroupListFilter-placeholder
-,,Create Group,,,,settings-Groups-createGroup
-,,Name,,,,settings-GroupList-name
-,,Phone Number,,,,settings-GroupList-phoneNumber
-,,Members,,,,settings-GroupList-members
-,,Sharing,,,,settings-GroupList-sharing
-,,On,,,,settings-GroupList-on
-,,Off,,,,settings-GroupList-off
-,,No groups with that information found.,,,,settings-GroupList-noGroupsFound
+Settings,Groups,Groups,Groupes,Grupos,,settings-Groups-groups
+,,Search by name...,Recherche par nom,Buscar por nombre...,,settings-GroupListFilter-placeholder
+,,Create Group,Créer un groupe,Crear Grupo,,settings-Groups-createGroup
+,,Name,Nom,Nombre,,settings-GroupList-name
+,,Phone Number,Téléphone,Número telefónico,,settings-GroupList-phoneNumber
+,,Members,Membres,Miembros,,settings-GroupList-members
+,,Sharing,Partagé,Compartir,,settings-GroupList-sharing
+,,ON,ON,Encendido,,settings-GroupList-on
+,,OFF,OFF,Apagado,,settings-GroupList-off
+,,No groups with that information found.,Aucun groupe avec cette information retrouvé,No se han encontrado grupos con esa información.,,settings-GroupList-noGroupsFound
 ,,,,,,
-,Groups> Create Group,Create Group,,,,settings-AddOrEditGroup-createGroup
-,,Edit Group,,,,settings-AddOrEditGroup-editGroup
-,,Name,,,,settings-AddOrEditGroup-name
-,,Phone Number,,,,settings-AddOrEditGroup-phoneNumber
-,,Want a phone number assigned to this group?,,,,settings-AddOrEditGroup-wantPhoneNumber
-,,Contact Support,,,,settings-AddOrEditGroup-contactSupport
-,,Sharing,,,,settings-AddOrEditGroup-sharing
-,,Share Unclaimed message wait time,,,,settings-AddOrEditGroup-shareUnclaimed
-,,Minutes,,,,settings-AddOrEditGroup-minutes
-,,Share with the following groups:,,,,settings-AddOrEditGroup-shareWithGroups
-,,Save,,,,settings-AddOrEditGroup-save
-,,Success! New group created,,,,settings-AddOrEditGroup-successNewGroup
-,,Success! Group settings updated,,,,settings-AddOrEditGroup-successGroupSettings
-,,There was an error,,,,settings-AddOrEditGroup-error
+,,Create a new list,Créer une nouvelle liste,Crear nueva lista,,settings-AddOrEditList-createNewList
+,,Edit list,Modifier la liste,Editar lista,,settings-AddOrEditList-editList
+,,Create list,Créer une liste,Crear lista,,settings-AddOrEditList-createList
+,,Save,Enregistrer,Guardar,,settings-AddOrEditList-save
+,,Cancel,Annuler,Cancelar,,settings-AddOrEditList-cancel
+,,List Name,Nom de la liste,Nombre de lista,,settings-AddOrEditList-listName
+,,"Recommended format: all lowercase, no spaces e.g. west-side-plumbers","Format recommandé: tout en minuscules, pas d'espaces ex: plombiers-de-ouest","Formato recomendado: todos minúscula, sin espacios. Por ejemplo: fontaneros-del-oeste",,settings-AddOrEditList-format
+,,Tag Name is required,Le nom de la balise est nécessaire,Nombre de etiqueta requerido,,settings-AddOrEditList-tagName
 ,,,,,,
-,Groups> [Group Name],Members,,,,settings-GroupMembers-members
-,,Groups,,,,settings-GroupMembers-groups
-,,Add a member,,,,settings-GroupMembers-addMember
-,,Delete this member from the group and remove them from all group records?,,,,settings-GroupMembers-deleteMember
-,,This action can not be undone,,,,settings-GroupMembers-actionSubtext
-,,Delete,,,,settings-GroupMembers-delete
-,,Group Details,,,,settings-GroupMembers-groupDetails
-,,Edit,,,,settings-GroupMembers-edit
-,,Phone,,,,settings-GroupMembers-phone
-,,Sharing,,,,settings-GroupMembers-sharing
-,,Disabled,,,,settings-GroupMembers-disabled
-,,Enabled,,,,settings-GroupMembers-enabled
-,,This group has no team members,,,,settings-GroupMembers-noMembers
-,,Add a team member,,,,settings-GroupMembers-addTeamMember
-,,Enter User Name,,,,settings-AddMember-enterName
-,,Add a member,,,,modals-AddMember-addMember
-,,save,,,,modals-AddMember-save
-,,cancel,,,,modals-AddMember-cancel
-,,Add up to 5 team members at a time,,,,modals-AddMember-addFive
+,,Groups,Groupes,Grupos,,settings-AddOrEditGroup-groups
+,Groups> Create Group,Create Group,Créer un groupe,Crear Grupo,,settings-AddOrEditGroup-createGroup
+,,Edit Group,Modifier le groupe,Editar Grupo,,settings-AddOrEditGroup-editGroup
+,,Name,Nom,Nombre,,settings-AddOrEditGroup-name
+,,Phone Number,Numéro de Téléphone,Número telefónico,,settings-AddOrEditGroup-phoneNumber
+,,Want a phone number assigned to this group?,Voulez-vous qu'un numéro de téléphone soit attribué à ce groupe?,¿Desea asignar un número telefónico a este grupo?,,settings-AddOrEditGroup-wantPhoneNumber
+,,Contact Support,Contacter le support,Contactar Soporte,,settings-AddOrEditGroup-contactSupport
+,,Sharing,Partagé,Compartir,,settings-AddOrEditGroup-sharing
+,,Share Unclaimed message wait time,Partager le temps d'attente du message non-réclamé,Compartir el tiempo de espera para mensajes no atendidos,,settings-AddOrEditGroup-shareUnclaimed
+,,Minutes,Minutes,Minutos,,settings-AddOrEditGroup-minutes
+,,Share with the following groups:,Partager avec les groupes suivants,Compartir con los siguientes grupos:,,settings-AddOrEditGroup-shareWithGroups
+,,Save,Enregistrer,Guardar,,settings-AddOrEditGroup-save
+,,Success! New group created,Succès! Nouveau groupe créé,Éxito! Nuevo grupo creado.,,settings-AddOrEditGroup-successNewGroup
+,,Success! Group settings updated,Succès! Paramètres du groupe mis à jour,Éxito! Ajuste de grupo actualizado.,,settings-AddOrEditGroup-successGroupSettings
+,,There was an error,Il y a une erreur,Ha habido un error,,settings-AddOrEditGroup-error
+,,Required.,Requis,Requerido.,,settings-AddOrEditGroup-required
+,,Select at least 1 group.,Sélectionner au moins 1 groupe,Debe seleccionar al menos 1 grupo,,settings-AddOrEditGroup-selectGroup
+,,,,,,
+,Groups> [Group Name],Members,Membres,Miembros,,settings-GroupMembers-members
+,,Groups,Groupes,Grupos,,settings-GroupMembers-groups
+,,Add a member,Ajouter un membre,Agregar un miembro,,settings-GroupMembers-addMember
+,,Delete this member from the group and remove them from all group records?,Supprimer ce membre du groupe et retirer de tous les enregistrements de groupe,¿Eliminar este miembro del grupo y removerlo de todos los registros del grupo?,,settings-GroupMembers-deleteMember
+,,This action can not be undone,Cette action ne peut pas être annulée ,Esta acción no se puede deshacer,,settings-GroupMembers-actionSubtext
+,,Delete,Supprimer ,Eliminar,,settings-GroupMembers-delete
+,,Group Details,Détails du groupe,Detalles de grupo,,settings-GroupMembers-groupDetails
+,,Edit,Modifier,Editar,,settings-GroupMembers-edit
+,,Phone,Téléphone,Número,,settings-GroupMembers-phone
+,,Sharing,Partagé,Compartir,,settings-GroupMembers-sharing
+,,Disabled,Désactivé,Deshabilitado,,settings-GroupMembers-disabled
+,,Enabled,Activé,Habilitado,,settings-GroupMembers-enabled
+,,This group has no team members,Ce groupe n'a aucun membre d'équipe,Este grupo no tiene miembros,,settings-GroupMembers-noMembers
+,,Add a team member,Ajouter un membre à l'équipe,Agregar un miembro al equipo,,settings-GroupMembers-addTeamMember
+,,Member Already Added,Membre déjà ajouté,Miembro ya agregado,,settings-GroupMembers-alreadyAdded
+,,Max 5 Members,Max 5 membres,Máximo 5 miembros,,settings-GroupMembers-max
+,,There was an error.,Il y a une erreur,Ha habido un error,,settings-GroupMembers-error
+,,Member removed successfully.,membre supprimé avec succès,El miembro ha sido removido correctamente.,,settings-GroupMembers-success
+,,,,,,
+,,Enter User Name,Entrer un nom d'utilisateur,Ingresar Nombre de Usuario,,modals-AddMember-enterName
+,,Add a member,Ajouter un membre,Agregar un miembro,,modals-AddMember-addMember
+,,Save,Enregister,Guardar,,modals-AddMember-save
+,,Cancel,Annuler,Cancelar,,modals-AddMember-cancel
+,,Add up to 5 team members at a time,Ajouter jusqu'à 5 membres d'équipe à la fois,Agregue hasta 5 miembros de equipo a la vez,,modals-AddMember-addFive
 ,,,,,,
 ,,,,,,
-Settings,Customer Import,Customer Import,,,,settings-FirstReview-customerImport
-,,Step 1 of 4: Download customer import template,,,,settings-FirstReview-stepOne
-,,Download Template,,,,settings-FirstReview-downloadTemplate
-,,"After you download, add the following for each customer:",,,,settings-firstReview-afterDownload
-,,Company Name (Optional) - Company the contractor works for. It is OK to associate multiple contractors with the same company.,,,,settings-firstReview-companyName
-,,Company Number (Optional) - Typically the landline number of the company. It is OK to leave this blank.,,,,settings-firstReview-companyNumber
-,,Company Account Number (Optional) - An identifier used within your company to refer to this customer account.,,,,settings-firstReview-accountNumber
-,,First Name (Required) - First name of contractor.,,,,settings-firstReview-firstName
-,,Last Name (Optional) - Last name of contractor.,,,,settings-firstReview-lastName
-,,Cell Number (Required) - Cell number of contractor.,,,,settings-firstReview-cellNumber
-,,Email (Optional) - Email of contractor.,,,,settings-firstReview-email
-,,Account Rep (Optional) - Type the username (email address) of the Prokeep user who is responsible for the contractor.,,,,settings-firstReview-accountRep
-,,Prioritize Account Rep (Optional) - Please mark an X if the Account Rep should receive the contractor's incoming messages before the Shared Inbox.,,,,settings-firstReview-PrioritizeRep
-,,Please mark an X under the group that the contact is associated with.,,,,settings-firstReview-markX
-,,"After you finish adding customers, save and close the template and continue to the next step.",,,,settings-firstReview-afterFinishAdding
-,,Continue,,,,settings-CustomerImportForm-continue
-,,Saving...,,,,settings-CustomerImportForm-saving
-,,Customer Import,,,,settings-CustomerImport-customerImport
-,,Step 2 of 4: Import your customers,,,,settings-CustomerImport-step2
-,,Select the template where you added customer information.,,,,settings-CustomerImport-selectTemplate
-,,Select Template For Import,,,,settings-CustomerImport-selectTemplateImport
-,,Browse Files,,,,settings-ExcelUploader-browseFiles
-,,Back,,,,settings-Layout-back
-,,The selected file is missing the column: [] ,,,,settings-withCustomerImportLayout-missingColumn
-,,The selected file is missing the columns: [] ,,,Toast Notification,settings-withCustomerImportLayout-missingColumns
-,,You are not authorized to add contacts to the group: [],,,,settings-withCustomerImportLayout-notAuthorizedGroup
-,,You are not authorized to add contacts to the groups: [],,,,settings-withCustomerImportLayout-notAuthorizedGroups
-,,You are not authorized to alter data for the columns: [],,,,settings-withCustomerImportLayout-notAuthorizedColumns
-,,You are not authorized to alter data for the column: [],,,Toast Notification,settings-withCustomerImportLayout-notAuthorizedColumn
-,,Customer Import,,,,settings-ColumnsReview-customerImport
-,,Step 3 of 4: Check columns,,,,settings-ColumnsReview-step3
-,,"Check that the Example Values from your template match the Column Header. If they do not match, cancel the import process and return to the template and ensure column values match the column header.",,,,settings-ColumnsReview-checkExampleValues
-,,Save & continue,,,,settings-withCustomerImportLayout-saveContinue
-,,Customer Import,,,,settings-FinalReview-customerImport
-,,Step 4 of 4: Review,,,,settings-FinalReview-step4
-,,Please confirm import by pressing Continue below.,,,,settings-FinalReview-pleaseConfirm
-,,"Prokeep will then import all new customers. If there are rows with errors, you can either Cancel Import, address the rows with errors, and restart the process OR you can press Continue and import all rows that do not report an error.",,,,settings-FinalReview-prokeepImportNewCustomers
-,,Customers to Import,,,,settings-FinalReview-customersToImport
-,,Rows with Errors,,,,settings-FinalReview-rowsWithErrors
-,,None,,,,settings-FinalReview-none
-,,We imported no customers and skipped none because of errors.,,,Could include numbers instead of 'no' and 'none',settings-FinalMessage-importedCustomersAndErrors
-,,We imported 1 customer and skipped none because of errors.,,,,settings-FinalMessage-importedOneCustomer
-,,Import complete,,,,settings-FinalMessage-importComplete
-,,Importing customers,,,,settings-FinalReview-importingCustomers
-,,We are importing your customers now. This process may take a few minutes. The screen will refresh when the process is complete.,,,,settings-FinalReview-importingNow
-,,"Unable to import customers at this time, please try again later.",,,,settings-withFinalReviewLayout-unableToImport
-,,The selected file is not valid.,,,,settings-withCustomerImportLayout-notValid
+Settings,Customer Import,Customer Import,Importation clients,Importar Clientes,,settings-FirstReview-customerImport
+,,Step 1 of 4: Download customer import template,Étapes 1 de 4: télécharger le modèle client,Paso 1 de 4: Descargar el modelo de plantilla de Importación de clientes,,settings-FirstReview-stepOne
+,,Download Template,Télécharger le modèle,Descargar plantilla,,settings-FirstReview-downloadTemplate
+,,"After you download, add the following for each customer:","Après avoir téléchargé, ajouter ce qui suit pour chaque client","Después de descargarla, agregar para cada cliente:",,settings-FirstReview-afterDownload
+,,Company Name (Optional) - Company the contractor works for. It is OK to associate multiple contractors with the same company.,Nom de la compagnie (optionel)- La compagnie pour qui l'entrepreneur travaille. Il est possible d'associer plusieurs entrepreneurs à une compagnie ,Nombre Empresa (opcional): empresa para la que trabaja el contratista. Está bien asociar varios contratistas con la misma empresa,,settings-FirstReview-companyName
+,,Company Number (Optional) - Typically the landline number of the company. It is OK to leave this blank.,Numéro de l'entreprise (optionel)- En général le numéro fixe de l'entreprise. Vous pouvez laisser cet espace vide,"Número Empresa (opcional): normalmente, el número de teléfono fijo de la empresa. Está bien dejar este espacio en blanco.",,settings-FirstReview-companyNumber
+,,Company Account Number (Optional) - An identifier used within your company to refer to this customer account.,Numéro de compte de l'entreprise (Optionel)- Un identifiant utilisé dans votre entreprise pour faire référence à ce compte client,Numero de cuenta de la compania (Opcional) Un identificador utilizado dentro de su empresa para hacer referencia a esta cuenta de cliente.,,settings-FirstReview-accountNumber
+,,First Name (Required) - First name of contractor.,Prénom (Obligatoire) - Prénom de l'entrepreneur,Nombre (Requerido) - Nombre del contratista,,settings-FirstReview-firstName
+,,Last Name (Optional) - Last name of contractor.,Nom (Optionel) - Nom de l'entrepreneur,Apellido (Opcional) - Apellido del contratista,,settings-FirstReview-lastName
+,,Cell Number (Required) - Cell number of contractor.,Cellulaire ( Obligatoire)- Nom de l'entrepreneur,"Número de celda (obligatorio): número de celda del contratista.
+",,settings-FirstReview-cellNumber
+,,Email (Optional) - Email of contractor.,Courriel (Optionel)- Courriel de l'entrepreneur,"Correo electrónico (opcional): correo electrónico del contratista.
+",,settings-FirstReview-email
+,,Account Rep (Optional) - Type the username (email address) of the Prokeep user who is responsible for the contractor.,Représentant de compte (Optionel)- Saisissez le nom d'utilisateur (courriel) de Prokeep qui est responsable du contractant,Representante de cuenta (opcional): escriba el nombre de usuario (dirección de correo electrónico) del usuario de ProKeep que es responsable del contratista.,,settings-FirstReview-accountRep
+,,Prioritize Account Rep (Optional) - Please mark an X if the Account Rep should receive the contractor's incoming messages before the Shared Inbox.,Prioriser le représentant de compte (Optionel)- Veuillez marquer un  X si le représentant de compte devrait recevoir les messages entrant de l'entrepreneur avant la boîte de réception partagée,Priorizar al representante de la cuenta (opcional): marque una X si el representante de la cuenta debe recibir los mensajes entrantes del contratista previamente que  la bandeja de entrada compartida.,,settings-FirstReview-prioritizeRep
+,,Please mark an X under the group that the contact is associated with.,Veuillez marquer un X dans le groupe auquel le contact est associé,"Marque una X debajo del grupo al que está asociado el contacto.
+",,settings-FirstReview-markX
+,,"After you finish adding customers, save and close the template and continue to the next step.","Après  avoir terminé d'ajouter les clients, enregistrez et fermez le fichier et passez à l'étape suivante","Una vez que termine de agregar clientes, guarde y cierre la plantilla y continúe con el siguiente paso.
+",,settings-FirstReview-afterFinishAdding
+,,Customer Import,Importation clients,Importación de clientes,,settings-CustomerImport-customerImport
+,,Step 2 of 4: Import your customers,Étape 2 de 4: Importer le fichier clients,Paso 2 de 4: Importar clientes,,settings-CustomerImport-step2
+,,Select the template where you added customer information.,Sélectionnez le fichier dans lequel vous avez ajouté les informations du client,Seleccionar la plantilla donde se ha agregado la información de los clientes.,,settings-CustomerImport-selectTemplate
+,,Select template for import,Selectionnez fichier pour importer,Seleccionar plantilla para importar,,settings-CustomerImport-selectTemplateImport
+,,Browse Files,Parcourir les fichiers,Buscar Archivos,,settings-ExcelUploader-browseFiles
+,,Back,Revenir en arrière,Atrás,,settings-Layout-back
+,,Continue,Continuez,Continuar,,settings-withCustomerImportLayout-continue
+,,An error occurred.,Une erreur s'est produite,Ha habido un error,,settings-withCustomerImportLayout-error
+,,The selected file is missing the {singularOrPlural}: {missingColumns},"Dans le fichier selectionné, il manque la {singularOrPlural}: {missingColumns}",Al archivo seleccionado le faltan {singularOrPlural}: {missingColumns},column or columns will dynamically be included,settings-withCustomerImportLayout-missingColumn
+,,You are not authorized to add contacts to the {singularOrPlural}: {unauthorizedGroupColumns},Vous n'êtes pas autorisé d'ajouter des contacts dans le {singluarOrPlural}: {unauthorizedGroupColumns},Usted no esta autorizado a agregar contactos al  {singularOrPlural}: {unauthorizedGroupColumns},group or groups will be rendered dynamically,settings-withCustomerImportLayout-notAuthorizedGroup
+,,You are not authorized to alter data for the {singularOrPlural}: {unauthorizedColumns},Vous n'êtes pas autorisé de changer les donnèes pour la {singularOrPlural}: {unauthorizedColumns},Usted no está autorizado a modificar datos para la  {singularOrPlural}: {unauthorizedColumns},column or columns will dynamically be included,settings-withCustomerImportLayout-notAuthorizedColumn
+,,group,groupe,grupo,,settings-withCustomerImportLayout-group
+,,groups,groupes,grupos,,settings-withCustomerImportLayout-groups
+,,column,colonne,columna,,settings-withCustomerImportLayout-column
+,,columns,colonnes,columnas,,settings-withCustomerImportLayout-columns
+,,Customer Import,Importation clients,Importar clientes,,settings-ColumnsReview-customerImport
+,,Column Header,En-tête de colonne,Encabezado de Columna,,settings-ColumnsReview-columnHeader
+,,Example Values,Exemple de valeurs,Valores de Ejemplo,,settings-ColumnsReview-exampleValues
+,,Step 3 of 4: Check columns,Étape 3 de 4: Vérifier colonnes,Paso 3 de 4: Revisar columnas,,settings-ColumnsReview-step3
+,,"Check that the <em>Example Values</em> from your template match the <em>Column Header</em>. If they do not match, cancel the import process and return to the template and ensure column values match the column header.","Vérifier que <em>Exemples de valeurs</em> de votre fichier correspond à l'en-tête de colonne. Si elles ne correspondent pas, annulez le processus d'importation et revenez au modèle et assurez-vous que les valeurs de la colonne correspond à l'en-tête de colonne","Compruebe que los <em> valores de ejemplo </el> de su plantilla coincida con el encabezado de columna. Si no coinciden, cancele el proceso de importación y vuelva a la plantilla y asegúrese de que los valores de la columna coincida con el encabezado de la columna.
+",,settings-ColumnsReview-checkExampleValues
+,,Save & continue,Enregistrer et continuer,Guardar y continuar,,settings-withCustomerReviewLayout-saveContinue
+,,Customer Import,Importation clients,Importación de clientes,,settings-FinalReview-customerImport
+,,Step 4 of 4: Review,Étape 4 de 4: Révision,Paso 4 de 4: revisión,,settings-FinalReview-step4
+,,Please confirm import by pressing <em>Continue</em> below.,Veuillez confirmer l'importation en appuyant sur <em>Continuer</em> ci-dessous,Confirme la importación presionando <em> Continuar</em> a continuacion,,settings-FinalReview-pleaseConfirm
+,,"Prokeep will then import all new customers. If there are rows with errors, you can either Cancel Import, address the rows with errors, and restart the process OR you can press <em>Continue</em> and import all rows that do not report an error.","Prokeep importera tous les nouveaux clients. Si il y a des rangées avec des erreurs, vous pouvez soit annuler l'importation, revoir les rangées avec les erreurs, et recommer le processus OU vous pouvez appuyer sur Continuer et importer toutes les rangées sans erreur. ","Prokeep importará mas tarde todos los nuevos clientes. Si existen filas con errores, puede cancelar la importación, corregir las filas con errores y reiniciar el proceso o puede presionar Continuar e importar todas las filas que no informan un error.
+",,settings-FinalReview-prokeepImportNewCustomers
+,,Customers to Import,Clients à importer,Clientes a Importar,,settings-FinalReview-customersToImport
+,,Rows with Errors,Rangées avec erreur,Filas con errores,,settings-FinalReview-rowsWithErrors
+,,None,Aucun,Ninguno,,settings-FinalReview-none
+,,Import,Importer,Importar,,settings-withFinalReviewLayout-import
+,,We imported {results} {contactText} and skipped {errors} because of errors.,Nous avons importé  {results} {contactText} et sauter  {errors} à cause des erreurs,Importamos {results} {contactText} y omitimos {errors} debido a errores.,Could include numbers instead of 'no' and 'none',settings-FinalMessage-imported
+,,Import complete,Importation complète,Importación completa,,settings-FinalMessage-importComplete
+,,customer,Clients,cliente,,settings-FinalMessage-customer
+,,customers,Clients,clientes,,settings-FinalMessage-customers
+,,none,Aucun,ninguno,,settings-FinalMessage-none
+,,no,non,no,,settings-FinalMessage-no
+,,Customer Import,Importation clients,Importar clientes,,settings-FinalMessage-customerImport
+,,Importing customers,Importation des clients ,Importando clientes,,settings-FinalReview-importingCustomers
+,,We are importing your customers now. This process may take a few minutes. The screen will refresh when the process is complete.,Nous importons les clients maintenant. Ce processus peut prendre quelques minutes. L'écran s'actualisera lorsque le processus sera terminé,Estamos importando a sus clientes ahora. Este proceso puede tardar unos minutos. La pantalla se actualizará cuando se complete el proceso.,,settings-FinalReview-importingNow
+,,"Unable to import customers at this time, please try again later.","Impossible d'importer des clients à l'instant, essayez plus tard","No ha sido posible importar los clientes en este momento, inténtelo de nuevo más tarde.",,settings-withFinalReviewLayout-unableToImport
+,,The selected file is not valid.,Le fichier séléctionné est invalide,El archivo seleccionado no es válido.,,settings-withCustomerImportLayout-notValid
+,,Importing,Importation,Importando.,,settings-FinalMessage-importing
+Settings,After Hours Message,After Hours Message,Message après les heures d'ouverture,Mensaje fuera de horario.,,settings-ManagersIntermediatePage-afterHoursMessage
+,,After Hours Message,Message après les heures d'ouverture,Mensaje fuera de horario.,,settings-EnableAwayMessagePage-afterHoursMessage
+,,Status,Statut,Estado,,settings-ManagersIntermediatePage-status
+,,Group,Groupe,Grupo,,settings-ManagersIntermediatePage-group
+,,Disabled,Désactivé,Deshabilitado,,settings-ManagersIntermediatePage-disabled
+,,Active,Actif,Activo,,settings-ManagersIntermediatePage-active
 ,,,,,,
-Settings,After Hours Message,After Hours Message,,,,settings-ManagersIntermediatePage-afterHoursMessage
-,,Status,,,,settings-ManagersIntermediatePage-status
-,,Group,,,,settings-ManagersIntermediatePage-group
-,,Disabled,,,,settings-ManagersIntermediatePage-disabled
-,,Active,,,,settings-ManagersIntermediatePage-active
+,After Hours Message > Group,Enable After Hours Message,Activer le message après les heures d'ouverture,Habilitar mensajes fuera de horario,,settings-AfterHoursDashboard-enableMessage
+,,Save,Enregistrer,guardar,,settings-AfterHoursDashboard-save
+,,Send this message after business hours,Envoyer ce message apres les heures ouvertures,Enviar este mensaje fuera del horario laboral,,settings-AfterHoursDashboard-sendAfterBusinessHours
+,,Message preview,Aperçu du message,Vista previa del mensaje,,settings-AfterHoursDashboard-messagePreview
+,,"You've reached us outside of business hours. Our hours are 7am-6pm Mon-Sat. If your request is urgent, please call (503) 923-3485.","Vous nous avez contacté en dehors de nos heures d'ouverture. Nos heures sont de 7am-6pm du Lundi au samedi. Si votre demande est urgente, téléphonez au (503)-923-03485","Se ha comunicado con nosotros fuera del horario laboral. Nuestro horario es de 7 am a 6 pm de lunes a sábado. Si su solicitud es urgente, llame al (503) 923-3485.
+",,settings-AfterHoursDashboard-placeholderMessage
+,,Group Time Zone,Fuseau horaire du groupe,Zona horaria del grupo,,settings-AfterHoursDashboard-groupTimeZone
+,,Central Time,Heure du centre,Hora Central,,settings-AfterHoursDashboard-centralTime
+,,Mountain Time,Heure du montagne ,Hora Montaña,,settings-AfterHoursDashboard-mountainTime
+,,Pacific Time,Heure du pacifique,Hora Pacifico,,settings-AfterHoursDashboard-pacificTime
+,,Atlantic Time,Heure de l'Atlantique,Hora Atlántico,,settings-AfterHoursDashboard-atlanticTime
+,,Saskatchewan,Saskatchewan,Saskatchewan,,settings-AfterHoursDashboard-saskatchewan
+,,Newfoundland,Newfoundland,Newfoundland,,settings-AfterHoursDashboard-newfoundland
+,,Eastern Time,Heure de l'Est,Hora del Este,,settings-AfterHoursDashboard-easternTime
+,,Arizona,Arizona,Arizona,,settings-AfterHoursDashboard-arizona
+,,Alaska,Alaska,Alaska,,settings-AfterHoursDashboard-alaska
+,,Hawaii,Hawaii,Hawaii,,settings-AfterHoursDashboard-hawaii
+,,Open,Ouvert,Abierto,,settings-AfterHoursDashboard-open
+,,Closed,Fermé,Cerrado,,settings-AfterHoursDashboard-closed
+,,Away message is required,Un message d'absence est requis,mensaje de fuera de la oficina requerido,,settings-AfterHoursDashboard-awayMessage
+,,Open,Ouvert,Abierto,,settings-BusinessHours-open
+,,Closed,Fermé,Cerrado,,settings-BusinessHours-closed
+,,Close,Fermer,Cerrar,,settings-BusinessHours-close
+,,Group Business Hours,Heures d'ouverture du groupe,Horas laborables del grupo,,settings-BusinessHours-groupBusinessHours
+,,Workday,Journée de travail,Días laborables,,settings-BusinessHours-workday
+,,Copy to all days,Copier à tous les jours,Copiar a todo los dias,,settings-BusinessHours-copyAllDays
+,,Add New Temporary Hours,Ajouter nouvelles heures temporaires,Agregar nuevas horas temporales,,settings-HolidayHours-temporaryHours
+,,TEMPORARY HOURS,HEURES TEMPORAIRES,Horas temporales,,settings-AddEditHolidayHours-temporaryHours
+,,Save,Enregistrer,Guardar,,settings-AddEditHolidayHours-save
+,,Delete,Supprimer,Eliminar,,settings-AddEditHolidayHours-delete
+,,No records are currently being created.,Aucun enregistrement n'est actuellement en création,"Actualmente no se han creado registros
+",,settings-HolidayHours-noRecords
+,,Create a message to let customers know,Créez un message pour informer les clients,Cree un mensaje para que los clientes sepan,,settings-AfterHoursDashboard-createMessage
+,,they have reached you outside business hours,qu'ils vous ont contacté en dehors des heures d'ouverture,que se comunicaron con usted fuera del horario laboral,,settings-AfterHoursDashboard-reachedOutside
+,,Monday,Lundi,Lunes,,settings-AfterHoursDashboard-monday
+,,Tuesday,Mardi,Martes,,settings-AfterHoursDashboard-tuesday
+,,Wednesday,Mercredi,Miércoles,,settings-AfterHoursDashboard-wednesday
+,,Thursday,Jeudi,Jueves,,settings-AfterHoursDashboard-thursday
+,,Friday,Vendredi,Viernes,,settings-AfterHoursDashboard-friday
+,,Saturday,Samedi,Sábado,,settings-AfterHoursDashboard-saturday
+,,Sunday,Dimanche,Domingo,,settings-AfterHoursDashboard-sunday
+,,"There is an error in your business hours, opening time must be earlier than the closing time.","Il y a une erreur dans vos heures d'ouverture, l'heure d'ouverture doit être plus tôt que l'heure de fermeture","Hay un error en el orario de abrir de su negocio, la hora de apertura debe ser anterior a la hora de cierre",,settings-AfterHoursDashboard-error
+,,Success! After Hours Message settings saved.,Succès!  Les paramètres de votre message après les heures d'ouverture sont enregistrés ,Éxito! Ajuste Mensaje Fuera de Horario ha sido guardada.,,settings-AfterHoursDashboard-success
+,,Title,Titre,Título,,settings-HolidayHours-title
+,,Start Date,Date de début,Fecha de inicio,,settings-HolidayHours-startDate
+,,End Date,Date de fin,Fecha de finalización,,settings-HolidayHours-endDate
+,,Open,Ouvert,Abierto,,settings-HolidayHours-open
+,,Close,Fermé,Cerrado,,settings-HolidayHours-close
+,,Message,Message,Mensaje,,settings-HolidayHours-message
 ,,,,,,
-,After Hours Message > Group,Enable After Hours Message,,,,settings-AfterHoursDashboard-enableMessage
-,,save,,,,settings-AfterHoursDashboard-save
-,,Send this message after business hours,,,,settings-AfterHoursDashboard-sendAfterBusinessHours
-,,message preview,,,,settings-AfterHoursDashboard-messagePreview
-,,"You've reached us outside of business Hours. Our hours are 7am-6pm Mon-Sat. If your request is urgent, please call [phone number].",,,,settings-AfterHoursDashboard-placeholderMessage
-,,Group Time Zone,,,,settings-AfterHoursDashboard-groupTimeZone
-,,Central Time,,,,settings-AfterHoursDashboard-centralTime
-,,Mountain Time,,,,settings-AfterHoursDashboard-mountainTime
-,,Pacific Time,,,,settings-AfterHoursDashboard-pacificTime
-,,Atlantic Time,,,,settings-AfterHoursDashboard-atlanticTime
-,,Saskatchewan,,,,settings-AfterHoursDashboard-saskatchewan
-,,Newfoundland,,,,settings-AfterHoursDashboard-newfoundland
-,,Eastern Time,,,,settings-AfterHoursDashboard-easternTime
-,,Arizona,,,,settings-AfterHoursDashboard-arizona
-,,Alaska,,,,settings-AfterHoursDashboard-alaska
-,,Hawaii,,,,settings-AfterHoursDashboard-hawaii
-,,Open,,,,settings-AfterHoursDashboard-open
-,,Closed,,,,settings-AfterHoursDashboard-closed
-,,Group Business Hours,,,,settings-BusinessHours-groupBusinessHours
-,,Workday,,,,settings-BusinessHours-workday
-,,Copy to all days,,,,settings-BusinessHours-copyAllDays
-,,Add new temporary hours,,,,settings-
-,,Temporary Hours,,,,settings-AddEditHolidayHours-temporaryHours
-,,save,,,,settings-AddEditHolidayHours-save
-,,delete,,,,settings-AddEditHolidayHours-delete
-,,No records are currently being created,,,,settings-HolidayHours-noRecords
-,,Create a message to let customers know they have reached you outside business hours,,,,settings-AfterHoursDashboard-createMessage
-,,Monday,,,,settings-AfterHoursDashboard-monday
-,,Tuesday,,,,settings-AfterHoursDashboard-tuesday
-,,Wednesday,,,,settings-AfterHoursDashboard-wednesday
-,,Thursday,,,,settings-AfterHoursDashboard-thursday
-,,Friday,,,,settings-AfterHoursDashboard-friday
-,,Saturday,,,,settings-AfterHoursDashboard-saturday
-,,Sunday,,,,settings-AfterHoursDashboard-sunday
-,,"There is an error in your business hours, opening time must be earlier than the closing time.",,,,settings-AfterHoursDashboard-error
-,,Success! After Hours Message settings saved.,,,,settings-AfterHoursDashboard-success
-,,Title,,,,settings-HolidayHours-title
-,,Start Date,,,,settings-HolidayHours-startDate
-,,End Date,,,,settings-HolidayHours-endDate
-,,Open,,,,settings-HolidayHours-open
-,,Close,,,,settings-HolidayHours-close
-,,Message,,,,settings-HolidayHours-message
+,After Hours Message > Group > Temporary Hours,Title,Titre,Título,,settings-AddEditHours-title
+,,Start Date,Date de début,Fecha de inicio,,settings-AddEditHours-startDate
+,,End Date,Date de fin,Fecha de finalización,,settings-AddEditHours-endDate
+,,Message,Message,Mensaje,,settings-AddEditHours-message
+,,open,Ouvert,abierto,,settings-AddEditHours-open
+,,close,Fermé,cerrado,,settings-AddEditHours-close
+,,You have reached us outside of temporary business hours. Our temporary hours are 9 a.m. to 6 p.m.,Vous nous avez rejoint en dehors des nos heures d'ouvertures. Nos heurs temporaires sont de 9 am à 6 pm.,"Se ha comunicado con nosotros fuera del horario laboral. Nuestro horario laboral es de 9 a.m. a 6 p.m.
+",,settings-AddEditHours-placeholderMessage
+,,Availability,Disponibilité,Disponibilidad,,settings-AddEditHours-availability
+,,Uncheck if unavailable for the selected date.,Décocher si vous n'êtes pas disponible pour la date sélectionnée ,Desmarque si no está disponible para la fecha seleccionada.,,settings-AddEditHours-unavailable
+,,Success! Temporary hours created.,Succès! Heures temporaires créées,¡Éxito! Horas temporales creadas.,Toast notification.,settings-AddEditHolidayHours-successCreated
+,,Success! Temporary hours edited.,Succès! Heures temporaires modifiées,¡Éxito! Horas temporales editadas.,Toast notification.,settings-AddEditHolidayHours-successEdited
+,,Required.,Requis,Requerido,,settings-AddEditHolidayHours-required
+,,Must be 100 characters or less.,Doit être 100 caractères ou moins.,Debe tener 100 caracteres o menos.,,settings-AddEditHolidayHours-hundredOrLess
+,,Delete these temporary hours?,Supprimer les heures temporaires ?,¿Eliminar estas horas temporales?,,modals-DeleteTemporaryHours-deleteHours
+,,Are you sure you want to delete these temporary hours for {location}?,Êtes-vous sûre que vous voulez supprimer les heures temporaires de {location}?,¿Está seguro que desea eliminar estas horas temporales para esta {location}?,modal,modals-DeleteTemporaryHours-areYouSure
+,,"Yes, Delete","Oui, Supprimer","Si, Eliminar",,modals-DeleteTemporaryHours-yesDelete
+,,Cancel,Annuler,Cancelar,,modals-DeleteTemporaryHours-cancel
+,,Success! Record deleted.,Succès! Enregistrement supprimé,¡Éxito! Registro eliminado.,Toast notification.,settings-AddEditHolidayHours-success
+,,Start date cannot be after end date,La date de début ne peut pas être après la date de fin,La Fecha de inicio no puede ser después de la Fecha de finalización.,,settings-AddEditHolidayHours-startDate
+,,End date cannot be before start date,La date de fin ne peut pas être avant la date de début,La Fecha de finalización no puede ser antes de la Fecha de inicio.,,settings-AddEditHolidayHours-endDate
+,,Open hour should be lower than close hour,L'heure d'ouverture devrait être inférieure à l'heure de fermeture,El horario de apertura debe ser inferior al horario de cierre,,settings-AddEditHolidayHours-openHour
+,,Close hour should be greater than open hour,L'heure de fermeture devrait être supérieur à l'heure d'ouverture ,El horario de cierre debe ser mayor al horario de apertura,,settings-AddEditHolidayHours-closeHour
+,,Overlap an existing set of Temporary Hours.,Chevaucher un ensemble d'heures temporaires,Superpone un conjunto de horas temporales existente.,,settings-AddOrEditHolidayHours-overlap
+,,There was an error.,Il y a une erreur,Ha habido un error.,,settings-AddOrEditHolidayHours-error
 ,,,,,,
-,After Hours Message > Group > Temporary Hours,Title,,,,settings-AddEditHours-title
-,,Start Date,,,,settings-AddEditHours-startDate
-,,End Date,,,,settings-AddEditHours-endDate
-,,Message,,,,settings-AddEditHours-message
-,,You have reached us outside of temporary business hours. Our temporary hours are 9 a.m. to 6 p.m.,,,,settings-AddEditHours-placeholderMessage
-,,Availability,,,,settings-AddEditHours-availability
-,,Uncheck if unavailable for the selected date.,,,,settings-AddEditHours-unavailable
-,,Success! Temporary hours created.,,,Toast notification.,settings-AddEditHolidayHours-successCreated
-,,Success! Temporary hours edited.,,,Toast notification.,settings-AddEditHolidayHours-successEdited
-,,Delete these temporary hours?,,,,modals-DeleteTemporaryHours-deleteHours
-,,Are you sure you want to delete these temporary hours for [location]?,,,modal,modals-DeleteTemporaryHours-areYouSure
-,,"Yes, Delete",,,,modals-DeleteTemporaryHours-yesDelete
-,,Cancel,,,,modals-DeleteTemporaryHours-cancel
-,,Success! Record deleted.,,,Toast notification.,modals-AddOrEditHolidayHours-successDeleted
-,,Start date cannot be after end date,,,,settings-AddEditHolidayHours-startDate
-,,End date cannot be before start date,,,,settings-AddEditHolidayHours-endDate
-,,Open hour should be lower than close hour,,,,settings-AddEditHolidayHours-openHour
-,,Close hour should be greater than open hour,,,,settings-AddEditHolidayHours-closeHour
-,,Overlap an existing set of Temporary Hours.,,,,settings-AddOrEditHolidayHours-overlap
-,,There was an error.,,,,settings-AddOrEditHolidayHours-error
+,,After Hours Message,Message après les heures d'ouverture,Mensajes Fuera de Horario,,settings-AddEditHolidayHours-afterHoursMessage
+,,Temporary Hours,Heures temporaires,Horas Temporales,,settings-AddEditHolidayHours-temporaryHoursLower
 ,,,,,,
-Settings,Blocked Numbers,Blocked Numbers,,,,settings-BlockedNumbers-blockedNumbers
-,,Number,,,,settings-BlockedNumbers-number
-,,No numbers are currently being blocked,,,,settings-BlockedNumbers-noNumbersBlocked
-,,Unblock,,,,modals-UnblockNumber-unblock
-,,This number will be able to send new messages to your account again,,,modal,modals-UnblockNumber-numberCanSendMessages
-,,"Yes, unblock this number",,,modal,modals-UnblockNumber-yesUnblock
-,,Successfully unblocked [phone number].,,,Toast notification,settings-BlockedNumbers-successfullyBlocked
 ,,,,,,
-Settings,Sharing,Sharing Settings,,,,settings-SharingSettings-sharingSettings
-,,Sharing,,,,settings-SharingSettings-sharing
-,,Allow messages to be shared between groups and individuals after a specified amount of time.,,,,settings-SharingSettings-allowMessages
-,,Time to share,,,,settings-SharingSettingsForm-timeToShare
-,,Define the default length of time a message can be unclaimed before being shared to additional groups.,,,,settings-SharingSettingsForm-defineDefaultLength
-,,minutes,,,,settings-SharingSettingsForm-minutes
-,,Save,,,,settings-SharingSettings-save
-,,There was an error.,,,,settings-SharingSettingsContainer-error
-,,Success! Company setting updated.,,,,settings-SharingSettingsContainer-success
+Settings,Blocked Numbers,Blocked Numbers,Numéros bloqués,Números Bloqueados,,settings-BlockedNumbers-blockedNumbers
+,,Number,Numéro,Número,,settings-BlockedNumbers-number
+,,No numbers are currently being blocked,Aucun numéro n'est actuellement bloqué,Actualmente no hay números bloqueados,,settings-BlockedNumbers-noNumbersBlocked
+,,Unblock,Débloquer,Desbloquear,,settings-BlockedNumbers-unblock
+,,Unblock {number} ?,Débloquer {number} ?,Desbloquear {number} ?,,modals-UnblockNumber-unblock
+,,This number will be able to send new messages to your account again,Ce numéro sera en mesure d'envoyer de nouveau message à votre compte de nouveau,Este número va a estar habilitado a enviar nuevos mensajes a su cuenta nuevamente,modal,modals-UnblockNumber-numberCanSendMessages
+,,"Yes, unblock this number","Oui, débloquer ce numéro","Si, desbloquear este número",modal,modals-UnblockNumber-yesUnblock
+,,Successfully unblocked {number}.,{number} Débloqué avec succès.,{number} Desbloqueado correctamente.,Toast notification,settings-BlockedNumbers-successfullyUnblocked
+,,There was an error while unblocking {number}.,Une erreur s'est produite lors du déblocage de ce {number},Ha habido un error mientras se desbloquea el {number},,settings-BlockedNumbers-errorUnblocked
 ,,,,,,
-Settings,Support and Feedback,Support and Feedback,,,,settings-Support-support
-,,Contact Prokeep,,,,settings-Support-contact
-,,Phone,,,,settings-Support-phone
-,,Email,,,,settings-Support-email
-,,Help Center,,,,settings-Support-helpCenter
-,,Prokeep Knowledge Base,,,,settings-Support-knowledgeBase
-,,Feedback,,,,settings-Support-feedback
-,,Type your feedback here and press Submit when you are done. Your input helps us build a better product.,,,,settings-Support-typeFeedback
-,,Copy to clipboard,,,,settings-Support-copyClipboard
-,,Thanks for submitting your feedback.,,,,settings-Support-thanks
+Settings,Sharing,Sharing Settings,Les paramètres de partage ,Ajustes de uso compartido,,settings-SharingSettings-sharingSettings
+,,Sharing,partagé,Uso compartido,,settings-SharingSettings-sharing
+,,Allow messages to be shared between groups and individuals after a specified amount of time.,Autoriser le partage de messages entre le groupe et les individus apres un laps de temps spécifié,"Permita que los mensajes se comparten entre grupos e individuos después de un período de tiempo específico.
+",,settings-SharingSettings-allowMessages
+,,Time to share,Temps poir partager,Tiempo para compartir,,settings-SharingSettingsForm-timeToShare
+,,Define the default length of time a message can be unclaimed before being shared to additional groups.,Définissez la durée par défaut pendant laquelle un message peut être non réclamé avant d'être partagé avec d'autres groupes,"Definir el intervalo predeterminado de tiempo en el que un mensaje puede ser atendido antes de ser compartido con otros grupos adicionales.
+",,settings-SharingSettingsForm-defineDefaultLength
+,,minutes,Minutes,minutos,,settings-SharingSettingsForm-minutes
+,,Save,Enregistrer,Guardar,,settings-SharingSettings-save
+,,There was an error.,Il y a une erreur,Ha habido un error,,settings-SharingSettingsContainer-error
+,,Success! Company setting updated.,Succès! Le paramètre de la compagnie est enregistré,¡Éxito! ajuste de compañía actualizó.,,settings-SharingSettingsContainer-success
 ,,,,,,
-Settings,Sign Out,Signing Out?,,,modal,modals-Logout-signingOut
-,,Are you sure you want to sign out?,,,modal,modals-Logout-areYouSure
-,,Sign out,,,modal,modals-Logout-signOut
-,,Cancel,,,,modals-Logout-cancel
+Settings,Support and Feedback,Support and Feedback,Support et Commentaire,Soporte y comentarios,,settings-Support-support
+,,Contact Prokeep,Contact Prokeep,Contacto Prokeep,,settings-Support-contact
+,,Phone,Téléphone,Teléfono,,settings-Support-phone
+,,Email,Courriel,Email,,settings-Support-email
+,,Help Center,Centre d'aide,Centro de ayuda,,settings-Support-helpCenter
+,,Prokeep Knowledge Base,Base de connaissance Prokeep,Base de conocimientos Prokeep,,settings-Support-knowledgeBase
+,,Feedback,Commentaires,Retroalimentación,,settings-Support-feedback
+,,Type your feedback here and press Submit when you are done. Your input helps us build a better product.,Taper vos commentaires ici et presser sur soumettre quand vous avez fini. Votre contribution nous aide à construire un meilleur produit,Escriba aquí sus comentarios y pulse Enviar cuando haya terminado. Su aporte nos ayuda a construir un mejor producto.,,settings-Support-typeFeedback
+,,Copy to clipboard,Copier dans le presse-papier,Copiar al portapapeles,,settings-Support-copyClipboard
+,,Copied,Copié,Copiado,,settings-Support-copied
+,,Success,Succès,Éxito,,settings-Support-success
+,,Thanks for submitting your feedback.,Merci de soumettre vos commentaires,Gracias por enviar sus comentarios.,,settings-Support-thanks
+,,Submit,Soumettre,Sumitir,,settings-Support-submit
 ,,,,,,
-Settings,Menu,My Account,,,,settings-SettingsNavigation-myAccount
-,,Settings,,,,settings-SettingsNavigation-settings
-,,Preferences,,,,settings-SettingsNavigation-preferences
-,,People,,,,settings-SettingsNavigation-people
-,,Users,,,,settings-SettingsNavigation-users
-,,Customer Import,,,,settings-SettingsNavigation-customerImport
-,,Company Settings,,,,settings-SettingsNavigation-companySettings
-,,After Hours Message,,,,settings-SettingsNavigation-afterHoursMessage
-,,Blocked Numbers,,,,settings-SettingsNavigation-blockedNumbers
-,,Help,,,,settings-SettingsNavigation-help
-,,Support and Feedback,,,,settings-SettingsNavigation-support
-,,Announcements,,,,settings-SettingsNavigation-announcements
-,,Groups,,,,settings-SettingsNavigation-groups
-,,Sharing,,,,settings-SettingsNavigation-sharing
-,,Sign Out,,,,settings-SettingsNavigation-signOut
+Settings,Sign Out,Signing Out?,Déconnecter?,¿Cerrar sesión?,modal,modals-Logout-signingOut
+,,Are you sure you want to sign out?,Êtes-vous sûre que vous voulez vous déconnecter?,¿Seguro que quieres desconectarte?,modal,modals-Logout-areYouSure
+,,Sign Out,Déconnecter,Cerrar Sesión,modal,modals-Logout-signOut
+,,Cancel,Annuler,Cancelar,,modals-Logout-cancel
 ,,,,,,
-Settings,Announcements,Create a new list,,,,modals-AddOrEditList-createNewList
-,,Create list,,,,modals-AddOrEditList-createList
-,,Save,,,,modals-AddOrEditList-save
-,,Tag name is required,,,,modals-AddOrEditList-tagNameRequired
-,,Reply Destination,,,,settings-Announcements-replyDestination
-,,Announcements,,,,settings-Announcements-announcements
-,,Announcement reply destination,,,,settings-AnnouncementGroup-replyDestination
-,,Select which group inbox you want to receive announcement replies,,,,settings-AnnouncementGroup-selectGroupInbox
-,,Announcement Lists,,,,settings-Announcements-announcementLists
-,,New List,,,,settings-Announcements-newList
-,,Get started with announcement lists,,,,settings-TagList-getStarted
-,,"You can think of announcement lists like tags. Once you create a list name here in settings, ",,,,settings-TagList-youCanThink
-,,you then go into the contacts section to add each customer to the list.,,,,settings-TagList-youThenGo
-,,Create your first list,,,,settings-TagList-createFirstList
-,,List name,,,,modals-AddOrEditList-listName
-,,"Recommended format: all lowercase, no spaces e.g. west-side-plumbers",,,,modals-AddOrEditList-recommendedFormat
-,,Announcement channel updated successfully,,,,settings-Announcements-success
-,,Edit list,,,,modals-AddOrEditList-editList
-,,Name,,,,settings-TagList-name
-,,Audience size,,,,settings-TagList-audienceSize
-,,Delete this tag and remove it from all contact records?,,,,settings-TagList-deleteTag
-,,This action cannot be undone,,,,settings-TagList-cannotBeUndone
-,,Announcement channel updated successfully.,,,,settings-TagList-success
-,,There was an error,,,,settings-TagList-error
-,,List name has already been taken,,,,settings-TagList-nameTaken
-,,List created successfully,,,,settings-TagList-createdSuccessfully
-,,List deleted successfully,,,,settings-TagList-deletedSuccessfully
-,,List updated successfully,,,,settings-TagList-updatedSuccessfully
-,,You need to create an announcements channel before setting the reply destination.,,,,settings-AnnouncementGroup-needCreateAnnouncements
-,,Contact Prokeep to setup your announcements channel.,,,,settings-AnnouncementGroup-contactProkeep
+Settings,Menu,My Account,Mon compte,Mi cuenta,,settings-SettingsNavigation-myAccount
+,,Settings,Paramètres,Ajustes,,settings-SettingsNavigation-settings
+,,Preferences,Préférences,Preferencias,,settings-SettingsNavigation-preferences
+,,People,Gens,Personas,,settings-SettingsNavigation-people
+,,Users,Utilisateurs,Usuarios,,settings-SettingsNavigation-users
+,,Customer Import,Importation clients,importación cliente,,settings-SettingsNavigation-customerImport
+,,Company Settings,Paramètres entreprise,Configuración de la empresa,,settings-SettingsNavigation-companySettings
+,,After Hours Message,Message apres les heures d'ouverture,Mensaje fuera de horario laboral,,settings-SettingsNavigation-afterHoursMessage
+,,Blocked Numbers,Numéros bloqués ,Números Bloqueados,,settings-SettingsNavigation-blockedNumbers
+,,Help,Aide,Ayuda,,settings-SettingsNavigation-help
+,,Support and Feedback,Support et commentaire,Soporte y comentarios,,settings-SettingsNavigation-support
+,,Announcements,Annonces,Anuncios,,settings-SettingsNavigation-announcements
+,,Groups,Groupes,Grupos,,settings-SettingsNavigation-groups
+,,Sharing,Partagé,compartir,,settings-SettingsNavigation-sharing
+,,Sign Out,Déconnecter,Cerrar Sesión,,settings-SettingsNavigation-signOut
 ,,,,,,
-Threads,Inbox,"Click Here to watch our 20-minute ""Get Started"" training video",,,only on new app,threads-GettingStarted-clickHere
-,,Group,,,,threads-ThreadsListColumnHeader-group
-,,Groups,,,,threads-ThreadsListColumnHeader-groups
-,,Select All,,,,threads-ThreadsListColumnHeader-selectAll
-,,Inbox,,,,threads-Threads-inbox
-,,Open,,,,threads-Threads-open
-,,Close,,,,threads-Threads-close
-,,Coffee Break!,,,,threads-Threads-coffeeBreak
-,,The inbox is empty,,,,threads-Threads-inboxEmpty
-,,Claim Thread,,,,threads-ThreadHistory-claimThread
-,,Message Failed,,,,threads-Message-messageFailed
-,,Thread has been claimed by [name],,,,threads-ThreadHistory-claimedBy
-,,Go to claimed threads,,,,threads-ThreadHistory-goToThreads
-,,Loading Previous Thread,,,,threads-ThreadHistory-loading
-,,Return to full conversation history,,,,threads-ThreadHistory-return
+Settings,Announcements,Create a new list,Créer une nouvelle liste,Crear una nueva lista,,modals-AddOrEditList-createNewList
+,,Create list,Créer une liste,Crear lista,,modals-AddOrEditList-createList
+,,Save,Enregistrer,Guardar,,modals-AddOrEditList-save
+,,Tag name is required,Le nom de la balise est nécessaire,Nombre de etiqueta requerido,,modals-AddOrEditList-tagNameRequired
+,,Reply Destination,Répondre à destination,Responder Destino,,settings-Announcements-replyDestination
+,,Announcements,Annonces,anuncios,,settings-Announcements-announcements
+,,Announcement reply destination,Destination de l'annonce,destino de respuesta anuncio,,settings-AnnouncementGroup-replyDestination
+,,Select which group inbox you want to receive announcement replies,Selectionner le groupe que vous voulez qui recoive les réponses des annonces,Seleccionar a qué bandeja de entrada de grupo desea recibir mensajes de anuncios,,settings-AnnouncementGroup-selectGroupInbox
+,,There was an error,Il y a une erreur,Ha habido un error,,settings-AnnouncementGroup-error
+,,Announcement channel updated successfully.,Canal d'annonce mis à jour avec succès,canal de anuncio actualizado correctamente,,settings-AnnouncementGroup-success
+,,Select a group,Sélectionner un groupe,Seleccionar un grupo,,settings-AnnouncementGroup-selectGroup
+,,Announcement Lists,Liste d'annonce,Listas de anuncios,,settings-Announcements-announcementLists
+,,New List,Nouvelle liste,Lista nueva,,settings-Announcements-newList
+,,There was an error.,Il y a une erreur,Ha habido un error,,settings-Announcements-error
+,,Get started with announcement lists,Commencez avec les listes d'annonce,Empezar a trabajar con listas de anuncios,,settings-TagList-getStarted
+,,Delete,Supprimer,Eliminar,,settings-TagList-delete
+,,"You can think of announcement lists like tags. Once you create a list name here in settings, ",vous pouvez penser à des listes d'annonces comme des balises.une fois que vous avez créé un nom de liste dans les paramètres,"Se puede pensar a las listas de anuncios como a las etiquetas. Una vez que se crea un nombre de la lista aquí en la configuración,",,settings-TagList-youCanThink
+,,you then go into the contacts section to add each customer to the list.,Vous allez ensuite dans les contact pour ajouter chaque client à cette liste,"a continuación, ir a la sección de contactos para agregar a cada cliente a la lista.",,settings-TagList-youThenGo
+,,Create your first list,Créer votre première liste,Crear su primera lista,,settings-TagList-createFirstList
+,,List name,Nom de la liste,Lista de nombres,,modals-AddOrEditList-listName
+,,"Recommended format: all lowercase, no spaces e.g. west-side-plumbers","Format recommandé: tout en minuscules, pas d'espaces ex: plombiers-de-ouest","Formato recomendado: todo en minúsculas, sin espacios, por ejemplo, Del lado oeste-fontaneros",,modals-AddOrEditList-recommendedFormat
+,,Announcement channel updated successfully,Canal d'annonce mis à jour avec succès,canal de anuncio actualizado correctamente,,settings-Announcements-success
+,,Edit list,Modifier la liste,Editar lista,,modals-AddOrEditList-editList
+,,Name,Nom,Nombre,,settings-TagList-name
+,,Audience size,Taille de l'audience ,tamaño de la audiencia,,settings-TagList-audienceSize
+,,Delete this tag and remove it from all contact records?,Supprimez cette balise et supprimez-la de tous les enregistrements de contact,"¿Eliminar esta etiqueta y quitarla de todos los registros de contacto?
+",,settings-TagList-deleteTag
+,,This action cannot be undone,Cette action ne peut pas être annulée,Esta acción no se puede deshacer,,settings-TagList-cannotBeUndone
+,,Announcement channel updated successfully.,Canal d'annonce mis à jour avec succès,Canal de anuncios actualizado correctamente,,settings-TagList-success
+,,There was an error,Il y a une erreur,Ha habido un error,,settings-TagList-error
+,,List name has already been taken,Le nom de la liste a déjà été pris,El nombre de la lista ya ha sido seleccionado,,settings-TagList-nameTaken
+,,List created successfully,Liste créée avec succès,Lista creada correctamente,,settings-TagList-createdSuccessfully
+,,List deleted successfully,Liste supprimée avec succès,Lista eliminada correctamente,,settings-TagList-deletedSuccessfully
+,,List updated successfully,Liste mise à jour avec succès,Lista actualizada correctamente,,settings-TagList-updatedSuccessfully
+,,You need to create an announcements channel before setting the reply destination.,Vous devez créer un canal d'annonces avant de définir la destination de réponse,"Es necesario crear un canal de anuncios previamente, antes de establecer el destino de respuesta.",,settings-AnnouncementGroup-needCreateAnnouncements
+,,Contact Prokeep to setup your announcements channel.,Contactez Prokeep pour configurer votre canal d'annonces,Contactar Pro Keep para configurar sus canal de anuncios.,,settings-AnnouncementGroup-contactProkeep
 ,,,,,,
-Threads,Open,My Threads,,,,threads-Threads-myThreads
-,,All Claimed Threads,,,,threads-Threads-AllClaimedThreads
-,,You don't have any open threads,,,,threads-Threads-noOpenThreads
-,,Grab an unclaimed thread from the inbox,,,,threads-Threads-grabUnclaimedThread
+Threads,Inbox,"Click Here to watch our 20-minute ""Get Started"" training video","Cliquez ici pour voir notre vidéo de formation de 20 minutes ""Commencer""","Haga clic aquí para ver nuestro video de 20 minutos de entrenamiento para comenzar a usar la aplicación
+",only on new app,threads-GettingStarted-clickHere
+,,Group,Groupe,Grupo,,threads-ThreadsListColumnHeader-group
+,,Groups,Groupes,grupos,,threads-ThreadsListColumnHeader-groups
+,,Select All,Tout sélectionner,Seleccionar todo,,threads-ThreadsListColumnHeader-selectAll
+,,Inbox,Boîte de réception,Bandeja de entrada,,threads-Threads-inbox
+,,Open,Ouvert,Abierto,,threads-Threads-open
+,,Closed,Fermé,Cerrado,,threads-Threads-close
+,,Coffee Break!,Pause café!,¡Descanso!,,threads-Threads-coffeeBreak
+,,The inbox is empty,La boîte de réception est vide,La bandeja de entrada está vacía,,threads-Threads-inboxEmpty
+,,Claim Thread,Réclamer une conversation,Reclamar hilo,,threads-ThreadHistory-claimThread
+,,Message Failed,Échec du message,Fallo en el mensaje,,threads-Message-messageFailed
+,,{name} has transferred this message to {targetName},{name} a transféré ce message à {targetname},{name} ha trasladado este mensaje a  {targetName},,threads-Message-hasTransferredTo
+,,Thread has been claimed by {name},Cette conversation a été réclame par {name},"El hilo ha sido reclamado por {name}
+",,threads-ThreadHistory-claimedBy
+,,Go to claimed thread,Aller à la conversation réclamée,Ir al hilo atendido,,threads-ThreadHistory-goToThread
+,,Loading Previous Thread,Chargement de la conversation réclamée,Cargando hilo anterior,,threads-ThreadHistory-loading
+,,Load Previous Thread,Chargement de la conversation précédente,Cargar el hilo anterior,,threads-ThreadHistory-loadPrevious
+,,Return to Full Conversation History,Retour  à l'historique complète de la conversation,"Volver al historial completo
+",,threads-ThreadHistory-return
 ,,,,,,
-Threads,Open>{ID},Add reference number,,,,threads-ReferenceNumber-addReferenceNumber
-,,Press Shift + Enter to Send,,,,threads-SubmitMessageInput-placeholder
-,,Send,,,,threads-SubmitMessageInput-send
-,,Unsupported file type,,,,threads-SubmitMessageInput-unsupported
-,,"File too large, max size 5MB",,,,threads-SubmitMessageInput-fileTooLarge
+Threads,Open,My Threads,Mes conversations,Mis temas,,threads-Threads-myThreads
+,,All Claimed Threads,Toute les conversation réclamées,Sus hilos atendidos,,threads-Threads-AllClaimedThreads
+,,You don't have any open threads,Vous n'avez aucune conversation ouverte,No tiene ningún hilo abierto,,threads-Threads-noOpenThreads
+,,Grab an unclaimed thread from the inbox,Récupérer une conversation non réclamée dans la boîte de réception,"Seleccionar un hilo no atendido de la bandeja de entrada
+",,threads-Threads-grabUnclaimedThread
 ,,,,,,
-Threads,Open>{ID}>Customer Info,Message,,,,slideouts-CustomerInfo-message
-,,First Name,,,,slideouts-CustomerNameEdit-firstName
-,,Last Name,,,,slideouts-CustomerNameEdit-lastName
-,,Company,,,,slideouts-CustomerNameEdit-company
-,,click save to create {company},,,,slideouts-CustomerNameEdit-clickSave
-,,Team Members,,,,slideouts-CustomerInfo-teamMembers
-,,Enter Company Name,,,,slideouts-CompanyDropDown-enterName
-,,Create new company [company name],,,,slideouts-CompanyDropDown-createNew
-,,Add new,,,,slideouts-CustomerInfo-addNew
-,,Company Acct #,,,,slideouts-CustomerInfo-companyAcct
-,,Company email,,,,slideouts-CustomerInfo-companyEmail
-,,Company phone,,,,slideouts-CustomerInfo-companyPhone
-,,Phone,,,,slideouts-CustomerInfo-phone
-,,Email Address,,,,slideouts-CustomerInfo-email
-,,Groups,,,,slideouts-CustomerInfo-groups
-,,Priority Notifications,,,,slideouts-CustomerInfo-priority
-,,Account Rep,,,,slideouts-CustomerInfo-accountRep
-,,enabled,,,,slideouts-CustomerInfo-enabled
-,,disabled,,,,slideouts-CustomerInfo-disabled
-,,Notes,,,,slideouts-CustomerInfo-notes
-,,Nothing to see here,,,,slideouts-CustomerInfo-nothingToSee
-,,Save,,,,slideouts-EditSaveCancel-save
-,,Cancel,,,,slideouts-EditSaveCancel-cancel
-,,Invalid Phone Number,,,,slideouts-validation-invalidPhone
-,,Invalid email address.,,,,slideouts-validation-invalidEmail
-,,Must include a phone number,,,,slideouts-validation-mustIncludeNumber
-,,Must enter a value,,,,slideouts-validation-mustEnterValue
-,,Last Modified [date],,,,slideouts-CustomerInfo-lastModified
-,,Please choose account rep first.,,,,slideouts-CustomerAccountRepEdit-pleaseChoose
-,,Prioty Notification,,,,slideouts-CustomerAccountRepEdit-priority
-,,Show new messages to account rep first,,,,slideouts-CustomerAccountRepEdit-showNewMessages
-,,Announcement Lists,,,,slideouts-CustomerInfo-announcementLists
-,,Opt In status:,,,,slideouts-CustomerInfo-optInStatus
-,,Opted In,,,,slideouts-CustomerInfo-optedIn
-,,Opted Out,,,,slideouts-CustomerInfo-optedOut
-,,No associated announcements list.,,,,slideouts-CustomerInfo-noList
-,,Delete,,,,slideouts-CustomerInfoOptions-delete
-,,Block,,,,slideouts-CustomerInfoOptions-block
-,,Are you sure you want to delete [name]?,,,,slideouts-CustomerInfoOptions-areYouSureDelete
-,,This action will permanently delete the Contact and all Messages associated with the Contact.,,,,slideouts-CustomerInfoOptions-actionPermanentlyDelete
-,,Cancel,,,,slideouts-CustomerInfoOptions-cancel
-,,Delete,,,,slideouts-CustomerInfoOptions-deleteButton
-,,Block [number] from starting new threads?,,,,slideouts-CustomerInfoOptions-blockNumber
+Threads,Open>{ID},Add reference number,Ajouter le numéro de référence,Agregar número de referencia,,threads-ReferenceNumber-addReferenceNumber
+,,Press Shift + Enter to Send,Presser sur Maj + Entrée pour envoyer,Presione Shift + Enter para enviar,,threads-SubmitMessageInput-placeholder
+,,Send,Envoyer,Enviar,,threads-SubmitMessageInput-send
+,,Unsupported file type,Type de fichier non supporté,Tipo de archivo no soportado,,threads-SubmitMessageInput-unsupported
+,,"File too large, max size 5MB","Fichier trop large, taille maximum 5MB","Archivo demasiado grande. 5 MB es el máximo soportado
+",,threads-SubmitMessageInput-fileTooLarge
+,,"Attach a JPG, PNG, or PDF","Joindre JPG, PNG ou PDF","Adjuntar un archivo JPG, PNG o PDF",,threads-SubmitMessageInput-attachmentInputTitle
+,,Insert an Emoji,Insérer un émoji,Insertar un Emoji,,threads-SubmitMessageInput-insertAnEmoji
+,,Today,Aujourd'hui,Hoy,,threads-SeparatorDate-today
+,,to,à,a,,threads-Separator-to
 ,,,,,,
-Threads,Block Number (unknown),Block,,,,modals-BlockNumber-block
-,,Admin users can manage your blocked numbers under Blocked Numbers in Settings.,,,,modals-BlockNumber-manageBlocked
-,,Cancel,,,,modals-BlockNumber-cancel
-,,"Yes, block this number",,,,modals-BlockNumber-yesBlock
-,,Attempt to block [phone number] has failed,,,,modals-BlockNumber-couldNotBlock
-,,Attempt to delete [phone number] has failed,,,,modals-BlockNumber-couldNotDelete
-,,Success! [phone number] is now being blocked.,,,,modals-BlockNumber-success
-,,[name] has been successfully deleted from your contacts,,,,modals-BlockNumber-nameDeleted
+Threads,Open>{ID}>Customer Info,Message,Message,Mensaje,,slideouts-CustomerInfo-message
+,,First Name,Prénom,Nombre,,slideouts-CustomerNameEdit-firstName
+,,Last Name,Nom,Apellido,,slideouts-CustomerNameEdit-lastName
+,,Company,Entreprise,Empresa,,slideouts-CustomerNameEdit-company
+,,"**click save to create \""{companyVal}\""","**cliquer sur enregistrer pour créer \""{companyVal}\""","**Haga clic en Guardar para crear \""{companyVal}\""",,slideouts-CustomerNameEdit-clickSave
+,,Name,Nom,Nombre,,slideouts-CustomerAccountNameEdit-name
+,,Team Members,Membres d'équipe,Miembros del equipo,,slideouts-CustomerInfo-teamMembers
+,,Enter Company Name,Entrer le nom de l'entreprise,"Introducir nombre empresa
+",,slideouts-CompanyDropDown-enterName
+,,"Create new company \""{companyName}\""","Creer une nouvelle entreprise \""{companyName}\""","Crear nueva empresa \""{companyName}\""",,slideouts-CompanyDropDown-createNew
+,,Add New,Ajouter nouveau,Agregar nuevo,,slideouts-CustomerInfo-addNew
+,,Company Acct #,# de compte de l'entreprise,Cuenta de la empresa,,slideouts-CustomerInfo-companyAcct
+,,Company email,Courriel de l'entreprise,correo de la empresa,,slideouts-CustomerInfo-companyEmail
+,,Company phone,Téléphone de l'entreprise,Teléfono de la empresa,,slideouts-CustomerInfo-companyPhone
+,,Phone,Téléphone,Teléfono,,slideouts-CustomerInfo-phone
+,,Email Address,Adresse courriel,Dirección de correo electrónico,,slideouts-CustomerInfo-email
+,,Groups,Groupes,grupos,,slideouts-CustomerInfo-groups
+,,Priority Notifications,Notification de priorité,Notificaciones de prioridad,,slideouts-CustomerInfo-priority
+,,Account Rep,Représentant de compte,Representante de cuenta,,slideouts-CustomerInfo-accountRep
+,,enabled,activer,habilitado,,slideouts-CustomerInfo-enabled
+,,disabled,désactiver,deshabilitado,,slideouts-CustomerInfo-disabled
+,,Notes,Notes,notas,,slideouts-CustomerInfo-notes
+,,Nothing to see here,rien à voir ici,Nada que ver aqui,,slideouts-CustomerInfo-nothingToSee
+,,Save,Enregistrer,Guardar,,slideouts-EditSaveCancel-save
+,,Cancel,Annuler,Cancelar,,slideouts-EditSaveCancel-cancel
+,,Invalid Phone Number,Numéro de téléphone invalide,Numero de telefono invalido,,slideouts-validation-invalidPhone
+,,Invalid email address.,Adresse courriel invalide,dirección de correo electrónico válida.,,slideouts-validation-invalidEmail
+,,Last Modified {date},Dernière modification {date} ,"Última actualización {date}
+",,slideouts-CustomerInfo-lastModified
+,,Please choose account rep first.,Veuillez d'abord choisir un représentant de compte,"Por favor seleccione primero un representante de cuenta.
+",,slideouts-CustomerAccountRepEdit-pleaseChoose
+,,Prioty Notification,Notification de priorité,Notificación prioty,,slideouts-CustomerAccountRepEdit-priority
+,,Show new messages to account rep first,Afficher d'abord le message au représentant de compte,"Mostrar primero nuevos mensajes al representante de cuenta
+",,slideouts-CustomerAccountRepEdit-showNewMessages
+,,Announcement Lists,Listes d'annonce,Listas de anuncios,,slideouts-CustomerInfo-announcementLists
+,,Opt In status,Statut d'abonnement,Estado de incluido,,slideouts-CustomerInfo-optInStatus
+,,Opted In,Abonné,Incluido,,slideouts-CustomerInfo-optedIn
+,,Opted Out,Désabonné,excluido,,slideouts-CustomerInfo-optedOut
+,,No associated announcements list.,Pas de liste d'annonce associé,"No hay lista de anuncios asociadas.
+",,slideouts-CustomerInfo-noList
+,,Opt-out,Se désabonner,optar por no,,slideouts-CustomerInfo-optOut
+,,Opt this customer out of all announcements.,Désabonner ce client de toutes les annonces,"Incluir a este cliente en todos los anuncios.
+",,slideouts-CustomerInfo-optThisCustomer
+,,Search for list by name,Rechercher la liste par nom,Búsqueda de lista por el nombre,,slideouts-CustomerInfo-searchForListByName
+,,Delete,Supprimer,Eliminar,,slideouts-CustomerInfoOptions-delete
+,,Block,Bloquer,Bloquear,,slideouts-CustomerInfoOptions-block
+,,Are you sure you want to delete {name}?,Êtes-vous sûre que vous voulez supprimer {name} ?,"¿Está seguro de que quiere borrar a {name}?
+",,slideouts-CustomerInfoOptions-areYouSureDelete
+,,This action will permanently delete the Contact and all Messages associated with the Contact.,Cette action va supprimer ce contact définitivement et tous les Messages associés au contact,"Esta acción eliminará permanentemente el contacto y todos los mensajes asociados al mismo.
+",,slideouts-CustomerInfoOptions-actionPermanentlyDelete
+,,Cancel,Annuler,Cancelar,,slideouts-CustomerInfoOptions-cancel
+,,Block {number} from starting new threads?,Bloquer {number} à commencer une nouvelle conversation,Bloquear {number} de iniciar nuevos temas?,,slideouts-CustomerInfoOptions-blockNumber
+,,Admin users can manage your blocked numbers under Blocked Numbers in Settings.,Les administrateurs peuvent gérer les numéros bloqués dans la section Numéros Bloqués dans les paramètres,"Los usuarios administradores pueden gestionar sus números bloqueados en la pestaña de Ajustes > Números Bloqueados
+",,slideouts-CustomerInfoOptions-adminsCanManageBlocked
+,,this contact,Ce contact,este contacto,,slideouts-CustomerInfoOptions-thisContact
+,,Success! {number} is now being blocked.,Succès! {number} est maintenant bloqué.,"¡Éxito! {number} ha sido bloqueado.
+",,slideouts-CustomerInfoOptions-blockSuccess
+,,Attempt to block {number} has failed.,Tentative de bloquer {number} a échoué,"Ha habido un error al bloquear al numero {number}
+",,slideouts-CustomerInfoOptions-blockFailure
+,,{firstName} {lastName} has been successfully deleted from your contacts.,{firstName} {lastName} a été supprimé de vos contacts avec succès.,"{firstName} {lastName} se ha eliminado correctamente de sus contactos.
+",,slideouts-CustomerInfoOptions-nameDeleteSuccess
+,,{number} has been successfully deleted from your contacts.,{number} a été supprimé de vos contacts avec succès.,{number} se ha eliminado correctamente de sus contactos.,,slideouts-CustomerInfoOptions-numberDeleteSuccess
+,,Attempt to delete {firstName} {lastName} has failed.,Tentative de bloquer {firstName} {lastName} a échoué.,"Ha habido un error al eliminar a {firstName} {lastName}
+",,slideouts-CustomerInfoOptions-deleteContactFailure
+,,{name} has been successfully deleted from your contacts.,{name} a été supprimé de vos contacts avec succès.,{name} se ha eliminado correctamente de sus contactos.,,slideouts-CustomerInfoOptions-deleteAccountSuccess
+,,Attempt to delete {name} has failed.,Tentative de supprimer {name} a échoué.,Intentará eliminar {name} ha fallado.,,slideouts-CustomerInfoOptions-deleteAccountFailure
 ,,,,,,
-Threads,Upload a file,Upload a file,,,,modals-UploadModal-uploadFile
-,,Filename,,,,modals-PhotoForm-filename
-,,Comment (optional),,,,modals-PhotoForm-comment
-,,Uploading...,,,,modals-Uploader-uploading...
-,,Annotate and reply,,,,modals-PhotoModal-annotateReply
-,,Photo Attachment:,,,,modals-PhotoModal-photoAttachment
-,,Submit,,,,modals-UploadModal-submit
-,,Filename,,,,modals-DocumentForm-filename
-,,Comment (optional),,,,modals-DocumentForm-comment
-,,Press Shift + Enter to Submit,,,,modals-DocumentForm-pressShift
-,,Submit,,,,modals-DocumentForm-submit
-,,Unsupported File Type,,,,modals-UploadModal-fileTooLarge
-,,"File too large, max size 5 MB",,,,modals-UploadModal-unsupportedFile
+Threads,Block Number (unknown),Block {number}?,Bloquer {number}?,Bloquear {number}?,,modals-BlockNumber-block
+,,Admin users can manage your blocked numbers under Blocked Numbers in Settings.,Les administrateurs peuvent gérer les numéros blqués sous numéros bloqués dans paramètre,"Los usuarios administradores pueden gestionar sus números bloqueados en la pestaña de Ajustes > Números Bloqueados
+",,modals-BlockNumber-manageBlocked
+,,Cancel,Annuler,Cancelar,,modals-BlockNumber-cancel
+,,"Yes, block this number","Oui, Bloquer ce numéro","Sí, bloquear este número",,modals-BlockNumber-yesBlock
+,,Attempt to block {number} has failed,Tentative de bloquer {number} a échoué,"Ha habido un error al bloquear al numero {number}
+",,modals-BlockNumber-couldNotBlock
+,,Attempt to delete {number} has failed,Tentative de supprimer {number} a échoué,"Ha habido un error al eliminar al número {number}
+",,modals-BlockNumber-couldNotDelete
+,,Success! {number} is now being blocked.,Succès!  {number} est maintenant bloqué,¡Éxito! {number} ahora está siendo bloqueado.,,modals-BlockNumber-success
+,,{name} has been successfully deleted from your contacts, {name} a été supprimé de vos contacts avec succès ,{name} se ha eliminado correctamente de sus contactos,,modals-BlockNumber-nameDeleted
 ,,,,,,
-Threads,Closed,Thread has been closed by [name],,,,threads-ThreadHistory-closedBy
-,,Go to all threads for this contact,,,,threads-ThreadHistory-goToAllThreads
-,,Print,,,,threads-ThreadDetailsHeader-print
+Threads,Upload a file,Upload a file,Télécharger un fichier,Cargar un archivo,,modals-UploadModal-uploadFile
+,,Filename,Nom du fichier,Nombre del archivo,,modals-PhotoForm-filename
+,,Comment (optional),Commentaire (optionnel),Comentario (opcional),,modals-PhotoForm-comment
+,,Uploading...,Téléchargement,Subiendo ...,,modals-Uploader-uploadingEllipsis
+,,Annotate and reply,Annoter et répondre,Anotar y responder,,modals-PhotoModal-annotateReply
+,,Photo Attachment:,Photo jointe,Foto adjunta:,,modals-PhotoModal-photoAttachment
+,,Submit,Soumettre,Enviar,,modals-UploadModal-submit
+,,Filename,Nom du fichier,Nombre del archivo,,modals-DocumentForm-filename
+,,Comment (optional),Commentaire (optionnel),Comentario (opcional),,modals-DocumentForm-comment
+,,Press Shift + Enter to Submit,Presser Maj + Entrer pour soumettre,Presione Shift + Enter para Presentar,,modals-DocumentForm-pressShift
+,,Submit,Soumettre,Enviar,,modals-DocumentForm-submit
+,,Unsupported File Type,Type de fichier non supporté,Tipo de archivo no soportado,,modals-UploadModal-unsupportedFile
+,,"File too large, max size 5 MB","Fichier trop large, taille maximum 5MB","El archivo es demasiado grande, el tamaño máximo permitido es de 5 MB
+",,modals-UploadModal-fileTooLarge
 ,,,,,,
-Threads,New Contact,Create,,,,sidebar-CreateSidebar-create
-,,New Contact,,,,slideouts-CreateCustomerForm-newContact
-,,First Name,,,,slideouts-CreateCustomerForm-firstName
-,,Last Name,,,,slideouts-CreateCustomerForm-lastName
-,,Phone,,,,slideouts-CreateCustomerForm-phone
-,,Click here to go to that contact,,,,slideouts-CreateCustomerForm-clickHere
-,,Email,,,,slideouts-CreateCustomerForm-email
-,,Account Rep,,,,slideouts-CreateCustomerForm-accountRep
-,,Prioty Notification,,,,slideouts-CreateCustomerForm-priority
-,,Show new messages to account rep first,,,,slideouts-CreateCustomerForm-showNewMessages
-,,Company,,,,slideouts-CreateCustomerForm-company
-,,Search companies,,,,slideouts-CreateCustomerForm-searchCompanies
-,,Company Phone,,,,slideouts-CreateCustomerForm-companyPhone
-,,Company Email,,,,slideouts-CreateCustomerForm-companyEmail
-,,Account Number,,,,slideouts-CreateCustomerForm-accountNumber
-,,Group,,,,slideouts-CreateCustomerForm-group
-,,Send a welcome message,,,,slideouts-CreateCustomerForm-welcomeMessage
+Threads,Closed,Thread has been closed by {name},La conversation a été fermée par {name},El hilo ha sido cerrado por {name},,threads-ThreadHistory-closedBy
+,,Go To All Threads For This Contact,Allez à toutes les conversations pour ce contact,"Ir a todos los hilos de este contacto
+",,threads-ThreadHistory-goToAllThreads
+,,Print,Imprimer,Imprimir,,threads-ThreadDetailsHeader-print
+,,Transfer,Transférer,Transferir,,threads-ThreadDetailsHeader-transfer
+,,Create Contact,Créer contact,Crear contacto,,threads-ThreadDetailsHeader-createContact
+,,Block,Bloquer,Bloquear,,threads-ThreadDetailsHeader-block
+,,Close,Fermer,Cerrar,,threads-ThreadDetailsHeader-close
+,,New Messages,Nouveaux messages,Nuevos mensajes,,threads-ThreadHistory-newMessages
 ,,,,,,
-Threads,New Message,New Message,,,,slideouts-CreateThread-newMessage
-,,To,,,,slideouts-CreateThread-toLabel
-,,Enter Name or Number,,,,slideouts-CreateThread-enterNameOrNumber
-,,File Name,,,,slideouts-CreateThread-messageLabel
-,,Message,,,,slideouts-CreateThread-message
-,,Press Shift + Enter to Submit,,,,slideouts-CreateThread-pressShift
-,,Unsupported File Type,,,,slideouts-CreateThread-unsupportedFile
-,,"File too large, max size 5 MB",,,,slideouts-CreateThread-fileTooLarge
-,,"Can't send message, contact has no phone number",,,,slideouts-CreateThread-cantSendMessage
-,,Send,,,,slideouts-CreateThread-send
+Threads,New Contact,Create,Créer,Crear,,sidebar-CreateSidebar-create
+,,New Contact,Nouveau contact,Nuevo contacto,,slideouts-CreateCustomerForm-newContact
+,,First Name,Prénom,Nombre,,slideouts-CreateCustomerForm-firstName
+,,Last Name,Nom,Apellido,,slideouts-CreateCustomerForm-lastName
+,,Phone,Téléphone,Teléfono,,slideouts-CreateCustomerForm-phone
+,,Click here to go to that contact,Cliquez ici pour aller dans ce contact,"Haga clic aquí para ir al contacto
+",,slideouts-CreateCustomerForm-clickHere
+,,Email,Courriel,Correo Electrónico,,slideouts-CreateCustomerForm-email
+,,Account Rep,Représentant du compte,Representante de cuenta,,slideouts-CreateCustomerForm-accountRep
+,,Prioty Notification,Notification de priorité,Notificaciones de prioridad,,slideouts-CreateCustomerForm-priority
+,,Show new messages to account rep first,Afficher d'abord le message au représentant de compte,Mostrar primero nuevos mensajes al representante de cuenta,,slideouts-CreateCustomerForm-showNewMessages
+,,Company,Entreprise,Empresa,,slideouts-CreateCustomerForm-company
+,,Search companies,Recherche d'entreprises,Búsqueda de empresas,,slideouts-CreateCustomerForm-searchCompanies
+,,Company Phone,Téléphone de l'entreprise,Teléfono Empresa,,slideouts-CreateCustomerForm-companyPhone
+,,Company Email,Courriel de l'entreprise,Correo electrónico Empresa,,slideouts-CreateCustomerForm-companyEmail
+,,Account Number,Numéro de compte,Número de cuenta,,slideouts-CreateCustomerForm-accountNumber
+,,Group,Groupe,Grupo,,slideouts-CreateCustomerForm-group
+,,Send a welcome message,Envoyer un message de bienvenue,Enviar un mensaje de bienvenida,,slideouts-CreateCustomerForm-welcomeMessage
+,,Submit,Soumettre,Enviar,,slideouts-CreateCustomerForm-submit
+,,Invalid phone number format.,Format de numéro de téléphone invalide,"Formato inválido para el numero de telefonico.
+",,slideouts-CreateCustomerForm-invalidPhone
+,,Invalid email format.,Adresse courriel invalide,"Formato correo electrónico inválido.
+",,slideouts-CreateCustomerForm-invalidEmail
+,,There was an error.,Il y a une erreur,Ha habido un error,,slideouts-CreateCustomerForm-genericError
+,,Required,Requis,Requerido,,slideouts-CreateCustomerForm-required
+,,This number already exists in your contacts.,Ce numéro existe déjà dans vos contacts,Este número ya existe en sus contactos.,,slideouts-CreateCustomerForm-numAlreadyExists
 ,,,,,,
-Threads,Transfer Thread,Transfer Thread,,,,slideouts-TransferThread-transferThread
-,,Thread Transfer Successful,,,,slideouts-TransferThread-transferThreadSuccess
-,,An error occured while transferring this thread.,,,,slideouts-TransferThread-error
-,,To,,,,slideouts-TransferThread-toLabel
-,,Internal Message,,,,slideouts-TransferThread-internalMessage
-,,The user you're attempting to transfer to is currently unavailable.,,,,slideouts-TransferThread-currentlyUnavailable
-,,Transfer Anyway,,,,slideouts-TransferThread-transferAnyway
-,,Send,,,,slideouts-TransferThread-send
+Threads,New Message,New Message,Nouveau Message,Nuevo mensaje,,slideouts-CreateThread-newMessage
+,,To,À,A,,slideouts-CreateThread-toLabel
+,,From,De,Desde,,slideouts-CreateThread-fromLabel
+,,Enter Name or Number,Entrer nom ou numéro.,Introduzca nombre o número,,slideouts-CreateThread-enterNameOrNumber
+,,File Name,Nom du fichier,Nombre del archivo,,slideouts-CreateThread-messageLabel
+,,Message,Message,Mensaje,,slideouts-CreateThread-message
+,,Press Shift + Enter to Submit,Presser sur Maj + Entrée pour soumettre,"Presione Shift + Enter para Enviar
+",,slideouts-CreateThread-pressShift
+,,Unsupported File Type,Type de fichier non supporté,Tipo de archivo no soportado,,slideouts-CreateThread-unsupportedFile
+,,"File too large, max size 5 MB","Fichier trop large, taille maximum 5MB","El archivo es demasiado grande, el tamaño máximo permitido es de 5 MB
+",,slideouts-CreateThread-fileTooLarge
+,,"Can't send message, contact has no phone number","Impossible d'envoyer le message, le contact n'a pas de numéro de téléphone","No se puede enviar el mensaje, el contacto no tiene número de teléfono asignado
+",,slideouts-CreateThread-cantSendMessage
+,,Send,Envoyer,Enviar,,slideouts-CreateThread-send
+,,Insert an Emoji,Insérer un émoji,Insertar un Emoji,,slideouts-CreateThread-insertEmoji
+,,Save and Continue,Enregistrer et continuer,Guardar y continuar,,slideouts-CreateThread-saveAndCont
+,,Image Annotations,Annotations d'image,Anotaciones de imagen,,slideouts-CreateThread-imageAnnotations
 ,,,,,,
-Customers,All,Contacts,,,,customers-CustomerList-contacts
-,,All,,,,customers-CustomerList-all
-,,Recent,,,,customers-CustomerList-recent
-,,Search,,,,customers-FilterCustomers-search
-,,It's awfully lonely in here.,,,,customers-NoRowsElement-lonely
-,,Are you ready to start adding contacts?,,,,customers-NoRowsElement-areYouReady
+Threads,Transfer Thread,Transfer Thread,Transférer la conversation,Transferir hilo,,slideouts-TransferThread-transferThread
+,,Thread Transfer Successful,La conversation a été transféré avec succès,"Transferencia de hilo con éxito
+",,slideouts-TransferThread-transferThreadSuccess
+,,An error occured while transferring this thread.,Une erreur s'est produite lors du transfert de cette conversation.,"Se ha producido un error durante la transferencia de este hilo.
+",,slideouts-TransferThread-error
+,,To,À,A,,slideouts-TransferThread-toLabel
+,,Internal Message,Message interne,Mensaje interno,,slideouts-TransferThread-internalMessage
+,,The user you're attempting to transfer to is currently unavailable.,L'utilisateur à qui vous essayer de transférer n'est pas disponible,"El usuario al que está intentando transferir no está disponible actualmente.
+",,slideouts-TransferThread-currentlyUnavailable
+,,Transfer Anyway,Transférer tout de même,Transferir de todos modos,,slideouts-TransferThread-transferAnyway
+,,Send,Envoyer,Enviar,,slideouts-TransferThread-send
 ,,,,,,
-,All>{ID},Closed at [time] by [person],,,,customers-CloseEvents-closedAt
+Customers,All,Contacts,Contacts,contactos,,customers-CustomerList-contacts
+,,All,Tout,Todos,,customers-CustomerList-all
+,,Recent,Récent,Reciente,,customers-CustomerList-recent
+,,Search,Rechercher,Buscar,,customers-FilterCustomers-search
+,,It's awfully lonely in here.,C'est terriblement solitaire ici,Esta muy desierto por aquí.,,customers-NoRowsElement-lonely
+,,Are you ready to start <addButton>adding contacts</addButton>?,Êtes-vous prêt à commencer?  <addButton> ajouter contacts  </addButoon>?,"¿Estás listo para empezar a <botón> agregar contactos </ boton >?
+",,customers-NoRowsElement-areYouReady
+,,No results found,Aucun résultats trouvés,No se han encontrado resultados,,customers-InfiniteScroll-noResultsFound
 ,,,,,,
-Search,,Search,,,,search-Search-search
-,,"Search threads, customers, companies",,,,search-Search-searchOptions
-,,No results!,,,,search-Search-noResults
-,,Search Suggestions:,,,,search-Search-searchSuggestions
-,,Check your spelling.,,,,search-Search-checkSpelling
-,,Try more general words.,,,,search-Search-tryGeneralWords
-,,Try different words that mean the same thing.,,,,search-Search-tryDifferentWords
-,,Ensure the filter is set to the type of data you want to search.,,,,search-Search-ensureFilterSet
-,,Filter,,,,search-Search-filter
-,,All,,,,search-Search-all
-,,Threads,,,,search-Search-threads
-,,Customers,,,,search-Search-customers
-,,View All,,,,search-LabelBar-viewAll
-,,Load More,,,,search-Search-loadMore
-,,Please begin a new search after editing input,,,,search-Search-newSearch
+,All>{ID},Closed at {time} by {person},Fermé à {time} par {person},Cerrado a las {time} por {person},,customers-CloseEvents-closedAt
 ,,,,,,
-Announcements,,No announcements sent yet,,,,announcements-AnnoucementList-noAnnouncements
-,,Search,,,,announcements-SearchAnnouncement-search
-,,Click the button below to create your first announcement,,,,announcements-AnnoucementList-clickButtonBelow
-,,Create an Announcement,,,,announcements-AnnoucementList-createAnnouncement
-,,Create a new group announcement,,,,slideouts-GroupMessageName-createGroupAnnouncement
-,,Setup,,,,slideouts-GroupMessageName-setup
-,,Message name,,,,slideouts-GroupMessageName-messageName
-,,Something to help you identify the message,,,,slideouts-GroupMessageName-placeholderMessage
-,,Save and continue,,,,slideouts-GroupMessageName-saveContinue
-,,Recipients,,,,slideouts-GroupMessageOverview-recipients
-,,Who do you want to send this message to?,,,,slideouts-GroupMessageOverview-whoSendMessage
-,,Save and exit,,,,slideouts-GroupMessageRecipients-saveExit
-,,Message,,,,slideouts-GroupMessageOverview-message
-,,What do you want to say?,,,,slideouts-GroupMessageOverview-whatToSay
-,,Audience Size,,,,slideouts-GroupMessageRecipients-audienceSize
-,,Recipients,,,,slideouts-GroupMessageRecipients-recipients
-,,Who do you want to message?,,,,slideouts-GroupMessageRecipients-whoToMessage
-,,clear all,,,,slideouts-GroupMessageRecipients-clearAll
-,,recipient name,,,,slideouts-GroupMessageRecipients-recipientName
-,,Customers,,,,slideouts-GroupMessageRecipients-customersLabel
-,,Announcement Lists,,,,slideouts-GroupMessageRecipients-announcementListsLabel
-,,[name] is already in your recipients list.,,,,slideouts-GroupMessageRecipients-alreadyRecipient
-,,edit,,,,slideouts-GroupMessageOverview-edit
-,,recipient,,,,slideouts-GroupMessageOverview-recipient
-,,I have permission to text each contact above,,,,slideouts-GroupMessageOverview-permission
-,,send now,,,,slideouts-GroupMessageOverview-sendNow
-,,Sending...,,,,announcements-AnnouncementList-sending
-,,Draft,,,,slideouts-GroupMessageOverview-draft
-,,View Detail,,,,slideouts-GroupMessageOverview-viewDetail
-,,Duplicate,,,,announcements-AnnouncementList-duplicate
-,,Previous,,,,announcements-AnnouncementList-previous
-,,Next,,,,announcements-AnnouncementList-next
-,,Announcement Name,,,,announcements-AnnouncementList-announcementName
-,,Sent,,,,announcements-AnnouncementList-sent
-,,You have reached the maximum number of characters allowed per message.,,,,slideouts-GroupMessageContent-maxNumberOfChars
-,,successfully deleted announcement,,,,announcements-AnnouncementList-success
-,,there was an error deleting the announcement,,,,announcements-AnnouncementList-error
-,,Announcement channel updated successfully,,,,announcements-Announcements-success
-,,There was an error.,,,,announcements-Announcements-error
-,,failure saving announcement.,,,,slideouts-GroupMessageContent-error
-,,failure saving announcement.,,,,slideouts-GroupMessageRecipients-error
-,,Save and continue,,,,slideouts-GroupMessageContent-saveContinue
-,,message,,,,slideouts-GroupMessageContent-message
-,,What do you want your message to say?,,,,slideouts-GroupMessageContent-whatMessageSay
-,,message sent,,,,slideouts-GroupMessageContent-messageSent
+Search,,Search,Rechercher,Buscar,,search-Search-search
+,,"Search threads, customers, companies","Recherche une conversation, clients, entreprises","Buscar Hilos, clientes, empresas
+",,search-Search-searchOptions
+,,No results!,Aucun résultats!,¡No hay resultados!,,search-Search-noResults
+,,Search Suggestions:,Suggestions de recherche:,Sugerencias de búsqueda:,,search-Search-searchSuggestions
+,,Check your spelling.,Vérifier l'orthographe ,Corrige tu ortografía.,,search-Search-checkSpelling
+,,Try more general words.,Essayer des mots plus généraux,Intente con palabras más generales,,search-Search-tryGeneralWords
+,,Try different words that mean the same thing.,Essayer des mots différents qui sont synonymes,"Intente con diferentes palabras que se refieran a lo mismo.
+",,search-Search-tryDifferentWords
+,,Ensure the filter is set to the type of data you want to search.,Assurez-vous que le filtre est défini sur le type de données que vous voulez rechercher,"Asegúrese de que el filtro seleccionado se corresponda con el tipo de datos que desea buscar.
+",,search-Search-ensureFilterSet
+,,Filter,Filtre,Filtrar,,search-Search-filter
+,,All,Tout,Todos,,search-Search-all
+,,Threads,Conversations,Hilos,,search-Search-threads
+,,Customers,Contacts,Clientes,,search-Search-customers
+,,View All,Voir tout,Ver todo,,search-LabelBar-viewAll
+,,Load More,Télécharger plus,"Cargar más
+",,search-Search-loadMore
+,,Please begin a new search after editing input,Veuillez commencer une nouvelle recherche après avoir modifié l'entrée,"Por favor, iniciar una nueva búsqueda después de editar la entrada
+",,search-Search-newSearch
 ,,,,,,
-Reports,,Download Excel,,,,reports-Reports-downloadExcel
-,,Threads Created (last 30 days),,,,reports-Reports-threadsCreated
-,,Last 30 days,,,,reports-Reports-lastThirtyDays
-,,[number] By Customer,,,,reports-Card-byCustomer
-,,[number] By Group,,,,reports-Card-byGroup
-,,[number] - [number] days,,,,reports-Card-days
-,,Time to claim (30 day average),,,,reports-Reports-timeToClaim
-,,30 day average,,,,reports-Reports-dayAverage
-,,[number] minutes,,,,reports-Reports-minutes
-,,[number] seconds,,,,reports-Reports-seconds
-,,Group,,,,reports-ReportsTable-group
-,,threads received*,,,,reports-ReportsTable-threadsReceived
-,,threads sent*,,,,reports-ReportsTable-threadsSent
-,,time to claim*,,,,reports-ReportsTable-timeToClaim
-,,* Last 30 Days,,,,reports-TableData-lastThirtyDays
-,,Your thread history report is being prepared and will be emailed to you shortly.,,,,reports-ReportsContainer-threadHistoryPrepared
-,,No activity to report yet,,,,reports-Reports-noActivity
-,,"Don't worry, everything is as it should be. Reports are generated nightly.",,,,reports-Reports-dontWorry
-,,Your first report will be available tomorrow.,,,,reports-Reports-firstReport
-,,Start a Thread,,,,reports-Reports-startThread
+Announcements,,No announcements sent yet,Aucune annonce n'a encore été envoyée,No se han enviado anuncios,,announcements-AnnoucementList-noAnnouncements
+,,Search,Recherche,Buscar,,announcements-SearchAnnouncement-search
+,,Click the button below to create your first announcement,Cliquer sur le boutton ci-dessous pour créer votre première annonce,Haga clic en el botón de abajo para crear su primer anuncio,,announcements-AnnoucementList-clickButtonBelow
+,,Create an Announcement,Créer l'annonce,Crear un anuncio,,announcements-AnnoucementList-createAnnouncement
+,,An error occurred.,Une erreur s'est produite ,Ocurrió un error.,,slideouts-GroupMessageName-genericError
+,,Create A New Group Announcement,Créer un groupe d'annonce,Crear un nuevo grupo de anuncio,,slideouts-GroupMessageName-createGroupAnnouncement
+,,Setup,Configuration ,Configurar,,slideouts-GroupMessageName-setup
+,,Message name,Nom du message,nombre del mensaje,,slideouts-GroupMessageName-messageName
+,,Something to help you identify the message,Quelque chose pour vous aider à identifier le message,"Algo que le ayude a identificar el mensaje
+",,slideouts-GroupMessageName-placeholderMessage
+,,Save and continue,Enregistrer et continuer,Guardar y continuar,,slideouts-GroupMessageName-saveContinue
+,,Recipients,Destinataires,destinatarios,,slideouts-GroupMessageOverview-recipients
+,,Who do you want to send this message to?,À qui voulez-vous envoyer ce message?,"¿A quién quiere enviar este mensaje?
+",,slideouts-GroupMessageOverview-whoSendMessage
+,,Save & Exit,Enregistrer et sortir,Guardar y salir,,slideouts-GroupMessageRecipients-saveExit
+,,Exit Review,Sortir de la révision,Salir de revisar,,slideouts-GroupMessageRecipients-exitReview
+,,Message,Message,Mensaje,,slideouts-GroupMessageOverview-message
+,,What do you want to say?,Que voulez-vous dire?,¿Qué quieres decir?,,slideouts-GroupMessageOverview-whatToSay
+,,AUDIENCE SIZE,Taille de l'auditoire,tamaño de la audiencia,,slideouts-GroupMessageRecipients-audienceSize
+,,Recipients,Destinataires,destinatarios,,slideouts-GroupMessageRecipients-recipients
+,,Who do you want to message?,Qui voulez-vous écrire?,¿A quién deseas enviar un mensaje?,,slideouts-GroupMessageRecipients-whoToMessage
+,,clear all,Effacer tout,limpiar todo,,slideouts-GroupMessageRecipients-clearAll
+,,Recipient Name,Nom du destinataire,Nombre del destinatario,,slideouts-GroupMessageRecipients-recipientName
+,,Customers,Clients,Clientes,,slideouts-GroupMessageRecipients-customersLabel
+,,Announcement Lists,Listes d'annonce,Listas de anuncios,,slideouts-GroupMessageRecipients-announcementListsLabel
+,,{name} is already in your recipients list.,{name} est déjà dans votre liste de destinataire.,{name} ya está en la lista de destinatarios.,,slideouts-GroupMessageRecipients-alreadyRecipient
+,,{number} member,{number} du membre,"{number} miembro
+",,slideouts-GroupMessageRecipients-member
+,,{number} members,{number} du membre,{number} miembros,,slideouts-GroupMessageRecipients-members
+,,Save & Continue,Enregistrer et continuer,Guardar y continuar,,slideouts-GroupMessageRecipients-saveContinue
+,,EDIT,Modifier,Editar,,slideouts-GroupMessageOverview-edit
+,,recipient,Destinataire,destinatario,,slideouts-GroupMessageOverview-recipient
+,,I have permission to text each contact above,J'ai la permission d'envoyer un message text aua contact ci-dessus,"Estoy autorizado para enviar mensajes a cada uno de los contactos
+",,slideouts-GroupMessageOverview-permission
+,,Message Text,Message texte,Mensaje de texto,,slideouts-GroupMessageOverview-messageText
+,,Send Now,Envoyer maintenant,Enviar ahora,,slideouts-GroupMessageOverview-sendNow
+,,Back,Retour,atrás,,slideouts-GroupMessageOverview-back
+,,Sending,Envoyer,Enviando,,announcements-AnnouncementList-sending
+,,VIEW DETAIL,Voir détail,VER DETALLE,,slideouts-GroupMessageOverview-viewDetail
+,,Duplicate,Dupliquer,Duplicar,,announcements-AnnouncementList-duplicate
+,,Previous,Précédent,Anterior,,announcements-AnnouncementList-previous
+,,Next,Suivant,Siguiente,,announcements-AnnouncementList-next
+,,Announcement Name,Nom de l'annonce,Nombre del anuncio,,announcements-AnnouncementList-announcementName
+,,Sent,Envoyé,Enviar,,announcements-AnnouncementList-sent
+,,You have reached the maximum number of characters allowed per message.,Vous avez atteint la limite du nombre de caractères par message,"Ha alcanzado el número máximo de caracteres permitidos por mensaje.
+",,slideouts-GroupMessageContent-maxNumberOfChars
+,,Successfully deleted announcement,L'annonce a  été supprimée avec succès,"El anuncio ha sido eliminado correctamente
+",,announcements-AnnouncementList-success
+,,There was an error deleting the announcement,Il y a eu une erreur lors de la suppression de l'annonce,Ha habido un error al eliminar el anuncio,,announcements-AnnouncementList-error
+,,Announcement channel updated successfully,Canal d'annonce mis à jour avec succès,"El canal del anuncio ha sido actualizado correctamente
+",,announcements-Announcements-success
+,,There was an error.,Il y aune erreur,Ha habido un error,,announcements-Announcements-error
+,,failure saving announcement.,Échec pour l'enregistrement de l'annonce,Ha habido un error al guardar el anuncio,,slideouts-GroupMessageContent-error
+,,failure saving announcement.,Échec pour l'enregistrement de l'annonce,Ha habido un error al guardar el anuncio,,slideouts-GroupMessageRecipients-error
+,,Save and Continue,Enregistrer et continuer,Guardar y continuar,,slideouts-GroupMessageContent-saveContinue
+,,Message,Message,Mensaje,,slideouts-GroupMessageContent-message
+,,What do you want your message to say?,Que voulez-vous dire dans votre message?,"¿Cual desea que sea el contenido del mensaje?
+",,slideouts-GroupMessageContent-whatMessageSay
+,,Message Sent,Message envoyé,Mensaje enviado,,slideouts-GroupMessageContent-messageSent
 ,,,,,,
-Sign in,/login,email address,,,,signin-SignIn-emailAddress
-,,password,,,,signin-SignIn-password
-,,forgot password?,,,,signin-SignIn-forgotPassword
-,,The information you provided does not match our records,,,,signin-SignIn-noMatchRecords
-,,Login failed,,,,signin-SignIn-loginFailed
-,,sign in,,,,signin-SignIn-signIn
+Reports,,Download Excel,Télécharger le fichier excel,Descargar Excel,,reports-Reports-downloadExcel
+,,Threads Created,conversations créées,Hilos creados,,reports-Reports-threadsCreated
+,,Last 30 days,30 derniers jours,Últimos 30 días,,reports-Reports-lastThirtyDays
+,,{number} By Customer,{number} par client,{number} por Cliente,,reports-Card-byCustomer
+,,{number} By Group, {number} par groupe,"{number} por Grupo
+",,reports-Card-byGroup
+,,{fromDay} - {toDay} days,{fromDay} - {toDay} jours,"días
+",,reports-Card-days
+,,Time to claim,Temps pour réclamer,Tiempo de respuesta,,reports-Reports-timeToClaim
+,,30 day average,En moyenne 30 jours,30 días promedio,,reports-Reports-dayAverage
+,,minutes,minutes,minutos,,reports-Reports-minutes
+,,seconds,secondes,"segundos
+",,reports-Reports-seconds
+,,Group,Groupe,Grupo,,reports-ReportsTable-group
+,,threads received*,conversations reçues,hilos recibidos *,,reports-ReportsTable-threadsReceived
+,,threads sent*,conversations envoyées,"hilos enviados *
+",,reports-ReportsTable-threadsSent
+,,time to claim*,Temps pour réclamer,"tiempo de respuesta
+",,reports-ReportsTable-timeToClaim
+,,* Last 30 Days,* 30 derniers jours,* Últimos 30 Días,,reports-TableData-lastThirtyDays
+,,Your thread history report is being prepared and will be emailed to you shortly.,Votre historique de conversations est en cours de préparation et vous sera envoyé par courriel dans quelques instants,"Su informe del historial del hilo está siendo preparado y será enviado por correo electrónico a la brevedad.
+",,reports-ReportsContainer-threadHistoryPrepared
+,,No activity to report yet,Aucune activité à reporter,No hay actividad para informar por el momento.,,reports-Reports-noActivity
+,,"Don't worry, everything is as it should be. Reports are generated nightly.","Ne vous inquiétez pas, tout est comme il devrait être. Les rapports sont générés la nuit.","No se preocupe, todo está como debe estar. Los informes se generan todas las noches.
+",,reports-Reports-dontWorry
+,,Your first report will be available tomorrow.,Votre premier rapport sera  disponible demain,Su primer informe estará disponible mañana.,,reports-Reports-firstReport
+,,Start a Thread,Commencer une conversation,Iniciar un hilo,,reports-Reports-startThread
 ,,,,,,
-Sign in,/forgot,password recovery,,,,signin-ForgotPassword-passwordRecovery
-,,Enter the email address that is associated with your Prokeep account.,,,,signin-ForgotPassword-enterEmail
-,,Back to sign in,,,,signin-ForgotPassword-back
-,,Help is on the way,,,,signin-ForgotPasswordConfirmation-helpOnTheWay
-,,Head over to your email inbox and follow the link we've sent in a message. We'll get you back to serving customers in no time.,,,,signin-ForgotPasswordConfirmation-headToEmail
-,,Didn't get the email? Please contact support.,,,,signin-ForgotPasswordConfirmation-contactSupport
-,,Phone,,,,signin-ForgotPasswordConfirmation-phone
-,,Email,,,,signin-ForgotPasswordConfirmation-email
-,,Need Help?,,,,signin-ForgotPasswordConfirmation-needHelp
-,,Click here.,,,,signin-ForgotPasswordConfirmation-clickHere
-,,Could not send password reset email.,,,,signin-ForgotPasswordConfirmation-cannotSendPassword
-,,User not found,,,,signin-ForgotPasswordConfirmation-userNotFound
-,,Back to sign in,,,,signin-ForgotPasswordConfirmation-back
-,,submit,,,,signin-ForgotPassword-submit
-,,email address,,,,signin-ForgotPassword-emailAddress
-,,copy to clipboard,,,,signin-ForgotPasswordConfirmation-copyToClipboard
-,,copied!,,,,signin-ForgotPasswordConfirmation-copied
+Sign in,/login,email address,Adresse courriel,dirección de correo electrónico,,signin-SignIn-emailAddress
+,,password,mot de passe,contraseña,,signin-SignIn-password
+,,Forgot Password?,Mot de passe oublié?,"¿Olvidaste tu contraseña?
+",,signin-SignIn-forgotPassword
+,,The information you provided does not match our records,Cette information ne correspond pas à nos dossiers,"La información proporcionada no coincide con nuestros registros
+",,signin-SignIn-noMatchRecords
+,,Login failed,Échec la connexion,Error al iniciar sesión,,signin-SignIn-loginFailed
+,,Sign In,Se connecter ,registrarse,,signin-SignIn-signIn
 ,,,,,,
-Sign In,/join/{id},Welcome aboard,,,,signin-JoinTeam-welcomeAboard
-,,Fill in the information below and we will have you sending messages in no time,,,,signin-JoinTeam-fillInfoBelow
-,,Error occured,,,,signin-JoinTeam-error
-,,Could not join team.,,,,signin-JoinTeam-couldNotJoin
-,,First Name,,,,signin-JoinTeam-firstName
-,,Last Name,,,,signin-JoinTeam-lastName
-,,password,,,,signin-JoinTeam-password
-,,save,,,,signin-JoinTeam-save
-,,This invite has already been accepted,,,,signin-JoinTeam-inviteAlreadyAccepted
-,,Sign In,,,,signin-JoinTeam-signIn
+Sign in,/forgot,Password Recovery,Récupération de mot de passe,Recuperar contraseña,,signin-ForgotPassword-passwordRecovery
+,,Enter the email address that is associated with your Prokeep account.,Entrer l'adresse courriel associée à votre compte Prokeep.,"Introduzca la dirección de correo electrónico asociada a su cuenta Prokeep.
+",,signin-ForgotPassword-enterEmail
+,,Back to Sign In,Retour à la connexion ,Volver a iniciar sesión,,signin-ForgotPassword-back
+,,Help is on the way,De l'aide arrive,"La ayuda va en camino
+",,signin-ForgotPasswordConfirmation-helpOnTheWay
+,,Head over to your email inbox and follow the link we've sent in a message. We'll get you back to serving customers in no time.,rendez-vous dans votre boîte de réception et suivez le lien que nous avons envoyé dans le message. Nous vous remettrons au service de vos clients en peu de temps,Diríjase a la bandeja de entrada de su correo electrónico. Siga el enlace adjunto en el mensaje. Volverá a atender a sus clientes en cuestion de segundos.,,signin-ForgotPasswordConfirmation-headToEmail
+,,Didn't get the email? Please contact support.,Vous n'avez pas reçu de courriel? Veuillez contacter le support.,"No recibió el correo? Por favor, contacte al soporte.
+",,signin-ForgotPasswordConfirmation-contactSupport
+,,Phone,Téléphone,Teléfono,,signin-ForgotPasswordConfirmation-phone
+,,Email,Courriel,Correo Electrónico,,signin-ForgotPasswordConfirmation-email
+,,Need Help?,Besoin d'aide?,¿Necesitas ayuda?,,signin-ForgotPasswordConfirmation-needHelp
+,,Click here.,Cliquer ici.,Haga clic aquí.,,signin-ForgotPasswordConfirmation-clickHere
+,,Could not send password reset email.,Impossible d'envoyer le courriel de réinitialisation du mot de passe.,"No ha sido posible enviar el correo para restablecer su contraseña.
+",,signin-ForgotPasswordConfirmation-cannotSendPassword
+,,User not found,Utilisateurs pas trouvés,Usuario no encontrado,,signin-ForgotPasswordConfirmation-userNotFound
+,,Back to Sign In,Retour à la connexion ,Volver a iniciar sesión,,signin-ForgotPasswordConfirmation-back
+,,Submit,Soumettre,enviar,,signin-ForgotPassword-submit
+,,email address,Adresse courriel,dirección de correo electrónico,,signin-ForgotPassword-emailAddress
+,,Copy to Clipboard,Copier dans le presse-papier,copiar al portapapeles,,signin-ForgotPasswordConfirmation-copyToClipboard
+,,Copied!,copié!,copiado!,,signin-ForgotPasswordConfirmation-copied
 ,,,,,,
-Sign In,/reset/{id},Create your password,,,,signin-ResetPassword-createPassword
-,,Reset password,,,,signin-ResetPassword-resetPassword
-,,Error occured,,,,signin-ResetPassword-error
-,,password,,,,signin-ResetPassword-password
+Sign In,/join/{id},Welcome Aboard,Bienvenue à bord,Bienvenido a bordo,,signin-JoinTeam-welcomeAboard
+,,Fill in the information below and we will have you sending messages in no time,remplissez les informations et vous pourrez envoyer un message dans peu de temps,"Complete la siguiente información y comenzara enviar mensajes en cuestión de segundos
+",,signin-JoinTeam-fillInfoBelow
+,,Error occured,Une erreur s'est produite,Ocurrió un error,,signin-JoinTeam-error
+,,Could not join team.,Impossible de rejoindre l'équipe ,"No ha sido posible unirse al equipo.
+",,signin-JoinTeam-couldNotJoin
+,,First Name,Prénom,Nombre,,signin-JoinTeam-firstName
+,,Last Name,Nom,Apellido,,signin-JoinTeam-lastName
+,,password,Mot de passe,contraseña,,signin-JoinTeam-password
+,,Save,Enregistrer,Guardar,,signin-JoinTeam-save
+,,This invite has already been accepted,Cette invitation a déjà été envoyée,"Esta invitación ya ha sido aceptada
+",,signin-JoinTeam-inviteAlreadyAccepted
+,,Sign In,S'inscrire,Registrarse,,signin-JoinTeam-signIn
+,,,,,,
+Sign In,/reset/{id},Create your password,Créer votre mot de passe,Crear contraseña,,signin-ResetPassword-createPassword
+,,Reset password,Réinitialiser le mot de passe,"Restablecer contraseña
+",,signin-ResetPassword-resetPassword
+,,Error occured,Une erreur s'est produite,Ocurrió un error,,signin-ResetPassword-error
+,,password,Mot de passe,contraseña,,signin-ResetPassword-password
+,,,,,,
+settings,bubbleConfirmation,Cancel,Annuler,Cancelar,,settings-BubbleConfirmation-cancel
+,,,,,,
+settings,,n/a,n/a,No disponible,,settings-NA-na
+,,There was an error,Il y a une erreur,Ha habido un error,,settings-LanguageSettings-error
+,,Successfully updated language preferences,Préférences de langues mis à jour avec succès,Preferencias de idioma actualizadas correctamente,,settings-LanguageSettings-success
+,,English,Anglais,Inglés,,settings-LanguageSettings-english
+,,French,Francais,francés,,settings-LanguageSettings-french
+,,Spanish,Espagnol,Español,,settings-LanguageSettings-spanish
+,,Language,Langue,Idioma,,settings-LanguageSettings-language
+,,Save,Enregistrer,Guardar,,settings-LanguageSettings-save
+,,Languages,Langues,Idiomas,,settings-LanguageSettings-languages
+,,Set Language,Sélectionner la langue,Seleccionar Idioma,,settings-LanguageSettings-setLanguage
+,,,,,,
+,system stuff,Prokeep is trying to reconnect.,Prokeep essaie de se reconnecter,,,signin-createApolloClient-tryingToConnect
+,,Connection re-established.,Connexion rétablie,,,signin-createApolloClient-connectionReestablished
+,,,,,,
+,,Prokeep has encountered an error.,Prokeep a rencontré une erreur ,,,signin-GlobalErrorBoundary-error
+,,"Try refreshing the page. If the problem persists, please contact us.","Essayez de rafraîchir la page. Si le problème persiste, veuillez nous contacter.",,,signin-GlobalErrorBoundary-refresh
+,,Phone,Téléphone,,,signin-GlobalErrorBoundary-phone
+,,Support Email,Courriel support,,,signin-GlobalErrorBoundary-support
+,,Help Center,Centre d'aide,,,signin-GlobalErrorBoundary-helpCenter
+,,Prokeep Knowledge Base,Base de connaissance Prokeep,,,signin-GlobalErrorBoundary-knowledgeBase
+,,,,,,
+,,You've reached a page that does not exist.,Vous avez atteint une page qui n'existe pas ,,,signin-NotFound-noPage
+,,"If you were trying to access ProKeep, try retyping the URL.","Si vous essayer d'accèder Prokeep, essayer de retaper le URL",,,signin-NotFound-retypeUrl
+,,"As a reminder, your ProKeep login can be found by typing:","Pour rappel, votre connexion Prokeep peut être trouvé en tapant:",,,signin-NotFound-reminder
+,,your-company-name,votre-nom-entreprise,,,signin-NotFound-companyName
+,,Example:,Exemple,,,signin-NotFound-example
+,,Still need help?,Toujours besoin d'aide?,,,signin-NotFound-help
+,,CALL:,Appeler:,,,signin-NotFound-call
+,,Email:,Courriel:,,,signin-NotFound-email
+,,,,,,
+modals,,Getting Started,Démarrer,,,modals-VideoPlayer-gettingStarted
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,Missed Phrases:,Group Announcements,Annonce s du groupe,,,announcements-Annoucements-group
+,,Edit,Modifier,,,announcements-AnnoucementList-edit
+,,Draft,Brouillon,Borrador,,announcements-AnnoucementList-draft
+,,Delete,Supprimer,,,announcements-AnnoucementList-delete
+,,Are you sure you want to delete this announcement?,Êtes-vous sûre que vous voulez supprimer cette annonce,,,announcements-AnnoucementList-areYouSure
+,,View Detail,Voir détail,,,announcements-AnnouncementList-viewDetail
+,,Recipients,Destinataires,,,announcements-AnnouncementList-recipients
+,,Success! Record deleted.,Succès! enregistrements supprimés.,,,modals-AddOrEditHolidayHours-successDeleted
+,,Cancel,Annuler,,,modals-UnblockNumber-cancel
+,,Uploading,Téléchargement,,,modals-Uploader-uploading
+,,Photo Attachment:,Photo joint,,,modals-PhotoModal-submit
+,,Draw Arrow,Tracer une flèche,,,modals-Annotations-arrow
+,,Draw Rectangle,Dessiner un rectangle,,,modals-Annotations-rectangle
+,,Draw Line,Tracer une ligne,,,modals-Annotations-line
+,,Draw Ellipsis,Dessiner des points de suspension ,,,modals-Annotations-ellipsis
+,,Add Text,Ajouter texte,,,modals-Annotations-text
+,,Undo,Annuler,,,modals-Annotations-undo
+,,Show Colors,Afficher les couleurs,,,modals-Annotations-showColors
+,,Customer,clients,,,reports-Card-customer
+,,Group,groupe,,,reports-Card-group
+,,User,utilisateur,,,reports-Card-user
+,,Name,nom,,,reports-ReportsTable-name
+,,Company,entreprise,,,reports-ReportsTable-company
+,,last thread closed,dernier conversation fermée,,,reports-ReportsTable-lastThreadClosed
+,,There was an error,il y a une erreur,,,reports-ReportsContainer-downloadExcel-error
+,,New members added succesfully.,Nouveaux membres ajoutés avec succès,,,settings-GroupMembers-newMembersAdded
+,,Email address is required.,Adresse courriel requis,,,signin-SignIn-emailAddressValidation
+,,Invalid email address.,Adresse courriel invalide,,,signin-SignIn-emailAddressInvalid
+,,Invalid password.,Mot de passe invalide,,,signin-SignIn-password-invalid
+,,Success,Succès,,,signin-ForgotPasswordConfirmation-success
+,,First Name is required.,Prénom requis,,,signin-JoinTeam-firstName-error
+,,Last Name is required.,Nom requis,,,signin-JoinTeam-lastName-error
+,,Required,Requis,,,signin-PasswordFormContainer-required
+,,Need at least {minLength} characters.,A beosoin au moins de {minLength} caractères,,,signin-PasswordFormContainer-minLength
+,,Need at least 1 number.,A besoin au moins d'un chiffre,,,signin-PasswordFormContainer-need1Number
+,,Need at lowercase and uppercase.,A besoin au moins de minuscusle et majuscule,,,signin-PasswordFormContainer-needLowerAndUpper
+,,Required,Requis,,,signin-JoinTeam-required
+,,Need at least {minLength} characters.,A beosoin au moins de {minLength} caractères,,,signin-JoinTeam-minLength
+,,Need at least 1 number.,A besoin au moins d'un chiffre,,,signin-JoinTeam-need1Number
+,,Need at lowercase and uppercase.,A besoin au moins de minuscusle et majuscule,,,signin-JoinTeam-needLowerAndUpper
+,,Required,Requis,,,signin-ResetPassword-required
+,,Need at least {minLength} characters.,A beosoin au moins de {minLength} caractères,,,signin-ResetPassword-minLength
+,,Need at least 1 number.,A besoin au moins d'un chiffre,,,signin-ResetPassword-need1Number
+,,Need at lowercase and uppercase.,A besoin au moins de minuscusle et majuscule,,,signin-ResetPassword-needLowerAndUpper
+,,Password Required.,Mot de passe requis,,,signin-SignIn-passwordRequired
+,,Delete,Supprimer,,,slideouts-CustomerInfoOptions-deleteButton
+,,Enter notes,Entrer notes,,,slideouts-CustomerEditInput-enterNotes
+,,Error: {errorMsg},Erreur: {errorMsg} ,,,signin-ErrorMessagePage-errorColon
+,,"Error, something went wrong.","Erreur,quelque chose s'est mal pasée",,,signin-ErrorMessagePage-errorSomethingWentWrong
+,,Retrieve Diagnostic Sign In Information,Récupérer le diagnostic d'information de connexion,,,signin-Diagnostics-retrieveDiagnosticSignIn
+,,Retrieve,Récupérer,,,signin-Diagnostics-retrieve
