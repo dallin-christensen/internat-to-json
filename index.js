@@ -17,16 +17,6 @@ const languages = {
   },
 }
 
-// const selectedLanguage = 'es'
-
-// const languageName = languages[selectedLanguage].name
-// const languageRow = languages[selectedLanguage].row
-
-
-// const csvData = {};
-// const repeatedIds = [];
-// let totalIdAmount = 0;
-
 
 const deleteFilesInDist = ({ language }) => {
   fsExtra.emptyDirSync(`./dist/${language.name}`)
@@ -49,12 +39,6 @@ const writeFiles = ({ language, csvData, repeatedIds, totalIdAmount }) => {
 
   console.log(`Contratulations, ${totalIdAmount} ${language.name} ids created!`)
 }
-
-
-// const handleParsedData = ({ language, csvData, repeatedIds, totalIdAmount }) => {
-//   deleteFilesInDist({ language })
-//   writeFiles({ language, csvData, repeatedIds, totalIdAmount })
-// }
 
 
 const parseCsvData = ({ language, onParsed }) =>{
@@ -87,7 +71,6 @@ const parseCsvData = ({ language, onParsed }) =>{
   })
   .on('end',function() {
     onParsed({ language, csvData, repeatedIds, totalIdAmount })
-    // handleParsedData({ language, csvData, repeatedIds, totalIdAmount })
   });
 }
 
