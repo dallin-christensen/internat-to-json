@@ -66,7 +66,7 @@ const parseCsvData = ({ language, onParsed }) =>{
         totalIdAmount++;
       }
 
-      csvData[section][phraseId] = csvrow[language.row].replace('\\', '').replace('\\', '')
+      csvData[section][phraseId] = csvrow[language.row].replace('\\', '').replace('\\', '').replace('\n', '')
     }
   })
   .on('end',function() {
