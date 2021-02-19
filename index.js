@@ -1,6 +1,10 @@
 const parse = require('csv-parse')
 const fs = require('fs')
 const fsExtra = require('fs-extra')
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+})
 
 const languages = {
   en: {
@@ -18,11 +22,15 @@ const languages = {
 }
 
 
-const deleteFilesInDist = ({ language }) => {
-  fsExtra.emptyDirSync(`./dist/${language.name}`)
+const deleteFilesInDist = ({ language, isLocal }) => {
+  const delPath = isLocal
+    ? `./dist/${language.name}`
+    : `../../devops/client-lib/src/lib/i18n/${language.name}`
+
+  fsExtra.emptyDirSync(delPath)
 }
 
-const writeFiles = ({ language, csvData, repeatedIds, totalIdAmount }) => {
+const writeFiles = ({ language, csvData, repeatedIds, totalIdAmount, isLocal }) => {
 
   const sections = Object.keys(csvData)
 
@@ -30,7 +38,11 @@ const writeFiles = ({ language, csvData, repeatedIds, totalIdAmount }) => {
     const section = csvData[sectionName]
     const data = JSON.stringify(section, null, 2)
 
-    fs.writeFileSync(`./dist/${language.name}/${sectionName}.json`, data)
+    const writePath = isLocal
+      ? `./dist/${language.name}/${sectionName}.json`
+      : `../../devops/client-lib/src/lib/i18n/${language.name}/${sectionName}.json`
+
+    fs.writeFileSync(writePath, data)
   })
 
   if (repeatedIds.length) {
@@ -75,14 +87,19 @@ const parseCsvData = ({ language, onParsed }) =>{
 }
 
 const execute = () => {
-  Object.keys(languages).forEach(language => {
+  readline.question(`Place new files in client-lib? [y/n] `, answer => {
+    const isLocal = answer.toLowerCase() !== 'y'
+    readline.close()
 
-    const handleParsedCallback = ({ language, csvData, repeatedIds, totalIdAmount }) => {
-      deleteFilesInDist({ language })
-      writeFiles({ language, csvData, repeatedIds, totalIdAmount })
-    }
+    Object.keys(languages).forEach(language => {
 
-    parseCsvData({ language: languages[language], onParsed: handleParsedCallback })
+      const handleParsedCallback = ({ language, csvData, repeatedIds, totalIdAmount }) => {
+        deleteFilesInDist({ language, isLocal })
+        writeFiles({ language, csvData, repeatedIds, totalIdAmount, isLocal })
+      }
+
+      parseCsvData({ language: languages[language], onParsed: handleParsedCallback })
+    })
   })
 }
 
