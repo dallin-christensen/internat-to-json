@@ -1,4 +1,4 @@
 ./translations.csv
 node_modules/
 dist/
-./*.csv
+*.csv
